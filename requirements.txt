@@ -1,0 +1,4 @@
+# Merlos CAD — core dependencies only
+# For the full Pro version requirements see the private repository
+
+customtkinter>=5.2.0
