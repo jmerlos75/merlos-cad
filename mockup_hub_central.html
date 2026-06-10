@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mockup — Hub Central en CAD Visor</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a2e; font-family: 'Segoe UI', sans-serif; color: #e0e0e0; padding: 20px; }
+
+  h1 { text-align: center; font-size: 14px; color: #888; margin-bottom: 16px; letter-spacing: 2px; text-transform: uppercase; }
+
+  /* ── LAYOUT PRINCIPAL ── */
+  .app-window {
+    width: 1100px; margin: 0 auto;
+    border: 2px solid #444;
+    border-radius: 8px; overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+
+  /* Barra de título */
+  .title-bar {
+    background: #2d2d2d;
+    padding: 8px 14px;
+    display: flex; align-items: center; gap: 8px;
+    border-bottom: 1px solid #444;
+  }
+  .title-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-red { background: #ff5f57; }
+  .dot-yellow { background: #febc2e; }
+  .dot-green { background: #28c840; }
+  .title-text { flex: 1; text-align: center; font-size: 12px; color: #888; }
+
+  /* Menú bar */
+  .menu-bar {
+    background: #252535;
+    padding: 0 8px;
+    display: flex; align-items: stretch;
+    border-bottom: 1px solid #3a3a5c;
+    font-size: 12px; height: 32px;
+    position: relative;
+  }
+  .menu-item {
+    padding: 0 14px;
+    display: flex; align-items: center;
+    cursor: pointer; color: #ccc;
+    border-right: 1px solid #3a3a5c;
+    transition: background 0.15s;
+  }
+  .menu-item:hover { background: #3a3a5c; color: #fff; }
+  .menu-item.hub {
+    background: #1e3a5f;
+    color: #60aaff;
+    font-weight: 600;
+    border-left: 3px solid #3b82f6;
+    position: relative;
+  }
+  .menu-item.hub:hover { background: #2a4a7f; }
+  .menu-item.hub .badge {
+    margin-left: 6px;
+    background: #3b82f6;
+    color: white;
+    font-size: 9px;
+    padding: 1px 5px;
+    border-radius: 8px;
+  }
+
+  /* Dropdown del hub */
+  .hub-dropdown {
+    position: absolute;
+    top: 32px; left: 0;
+    background: #1e2d4a;
+    border: 1px solid #3b82f6;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    width: 240px;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  .hub-dropdown .dd-header {
+    padding: 8px 14px;
+    font-size: 10px; color: #60aaff;
+    text-transform: uppercase; letter-spacing: 1px;
+    border-bottom: 1px solid #2a3f60;
+  }
+  .hub-dropdown .dd-item {
+    padding: 9px 16px;
+    display: flex; align-items: center; gap: 10px;
+    cursor: pointer; font-size: 12px; color: #d0d8ff;
+    transition: background 0.12s;
+    border-bottom: 1px solid #1a2a44;
+  }
+  .hub-dropdown .dd-item:hover { background: #2a4070; color: #fff; }
+  .hub-dropdown .dd-item .icon {
+    width: 24px; height: 24px; border-radius: 5px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; flex-shrink: 0;
+  }
+  .hub-dropdown .dd-item .meta { font-size: 10px; color: #6080a0; margin-top: 1px; }
+  .hub-dropdown .dd-item .status-dot {
+    margin-left: auto; width: 7px; height: 7px; border-radius: 50%;
+  }
+  .status-active { background: #22c55e; }
+  .status-idle { background: #4a5568; }
+  .status-warn { background: #f59e0b; }
+  .hub-dropdown .dd-footer {
+    padding: 7px 14px; font-size: 10px; color: #60aaff;
+    text-align: center; border-top: 1px solid #2a3f60;
+  }
+
+  /* Toolbar iconos */
+  .toolbar {
+    background: #252535; padding: 4px 8px;
+    display: flex; gap: 4px; border-bottom: 1px solid #3a3a5c;
+  }
+  .tb-btn {
+    background: #333350; border: 1px solid #4a4a6a;
+    color: #aaa; padding: 4px 10px; border-radius: 4px;
+    font-size: 11px; cursor: pointer;
+  }
+  .tb-btn:hover { background: #4a4a6a; color: #fff; }
+  .tb-sep { width: 1px; background: #4a4a6a; margin: 2px 4px; }
+
+  /* Área principal con canvas + módulos laterales */
+  .main-area {
+    display: flex; height: 520px;
+  }
+
+  /* CAD Canvas */
+  .cad-canvas {
+    flex: 1; background: #0d1117;
+    position: relative; overflow: hidden;
+  }
+  .canvas-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(60,60,80,0.3) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(60,60,80,0.3) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .canvas-label {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; color: #2a3550;
+  }
+  .canvas-label .big { font-size: 48px; margin-bottom: 8px; }
+  .canvas-label p { font-size: 12px; color: #3a4560; }
+
+  /* Módulos laterales flotantes */
+  .side-modules {
+    width: 280px; background: #161625;
+    border-left: 1px solid #3a3a5c;
+    display: flex; flex-direction: column;
+  }
+  .side-header {
+    background: #1e2d4a; padding: 8px 12px;
+    font-size: 11px; color: #60aaff;
+    border-bottom: 1px solid #2a3f60;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .module-panel {
+    border-bottom: 1px solid #2a2a3a;
+    flex-shrink: 0;
+  }
+  .module-tab {
+    padding: 8px 12px; cursor: pointer;
+    display: flex; align-items: center; gap: 8px;
+    font-size: 11px; color: #8090b0;
+    transition: background 0.12s;
+  }
+  .module-tab:hover { background: #1e2d4a; }
+  .module-tab.active { background: #1a3050; color: #90c0ff; }
+  .module-tab .icon { font-size: 14px; }
+  .module-tab .tag {
+    margin-left: auto; font-size: 9px;
+    background: #2a3f60; color: #60aaff;
+    padding: 1px 6px; border-radius: 8px;
+  }
+  .module-tab .tag.open { background: #1a4a2a; color: #4ade80; }
+
+  .module-content {
+    background: #0f1a2a; padding: 10px 12px;
+    font-size: 10px; color: #5a7090; line-height: 1.7;
+  }
+  .module-content .row { display: flex; justify-content: space-between; }
+  .module-content .val { color: #90b0d0; font-weight: 600; }
+
+  /* Barra de comando */
+  .cmd-bar {
+    background: #1a1a2e; border-top: 1px solid #3a3a5c;
+    padding: 6px 10px; display: flex; gap: 8px; align-items: center;
+  }
+  .cmd-mode-btn {
+    padding: 4px 10px; border-radius: 4px; font-size: 11px;
+    border: 1px solid #4a4a6a; cursor: pointer;
+  }
+  .cmd-mode-btn.cad { background: #2a3a2a; color: #4ade80; border-color: #2d5a2d; }
+  .cmd-mode-btn.ia  { background: #2a2a4a; color: #818cf8; border-color: #4a4a8a; }
+  .cmd-input {
+    flex: 1; background: #0d1117; border: 1px solid #3a3a5c;
+    color: #d0d0d0; padding: 5px 10px; border-radius: 4px; font-size: 12px;
+  }
+  .cmd-send { background: #1d4ed8; color: white; border: none;
+    padding: 5px 14px; border-radius: 4px; font-size: 12px; cursor: pointer; }
+
+  /* ── LEYENDA ── */
+  .legend {
+    width: 1100px; margin: 16px auto 0;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+  }
+  .legend-card {
+    background: #12122a; border: 1px solid #2a2a4a;
+    border-radius: 8px; padding: 14px;
+  }
+  .legend-card h3 { font-size: 11px; color: #60aaff; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; }
+  .legend-card p { font-size: 11px; color: #7080a0; line-height: 1.6; }
+  .legend-card .pro { color: #4ade80; }
+  .legend-card .con { color: #f87171; }
+
+  /* Nota de arrow */
+  .arrow-note {
+    width: 1100px; margin: 12px auto 0;
+    background: #1e2d1e; border: 1px solid #2d5a2d; border-radius: 8px;
+    padding: 12px 16px; font-size: 12px; color: #86efac;
+    display: flex; align-items: flex-start; gap: 10px;
+  }
+  .arrow-note .icon { font-size: 18px; flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<h1>Mockup — Hub Central integrado en CAD Visor</h1>
+
+<!-- VENTANA PRINCIPAL -->
+<div class="app-window">
+
+  <!-- Barra de título -->
+  <div class="title-bar">
+    <div class="title-dot dot-red"></div>
+    <div class="title-dot dot-yellow"></div>
+    <div class="title-dot dot-green"></div>
+    <div class="title-text">CAD Visor — Estudio Merlos AI v2.0</div>
+  </div>
+
+  <!-- Menú bar con Hub Central como primer item -->
+  <div class="menu-bar">
+
+    <!-- HUB CENTRAL con dropdown visible -->
+    <div class="menu-item hub" style="z-index:200;">
+      ⬡ Hub Central
+      <span class="badge">5</span>
+
+      <!-- Dropdown -->
+      <div class="hub-dropdown">
+        <div class="dd-header">Módulos del proyecto</div>
+
+        <div class="dd-item">
+          <div class="icon" style="background:#1a3a2a;">🗺️</div>
+          <div>
+            <div>Terreno del Lote</div>
+            <div class="meta">Área · retiros · norte · SIG</div>
+          </div>
+          <div class="status-dot status-active" title="Datos cargados"></div>
+        </div>
+
+        <div class="dd-item">
+          <div class="icon" style="background:#1a2a4a;">📋</div>
+          <div>
+            <div>Programa Arquitectónico</div>
+            <div class="meta">Espacios · m² · normativa CR</div>
+          </div>
+          <div class="status-dot status-active" title="Programa generado"></div>
+        </div>
+
+        <div class="dd-item">
+          <div class="icon" style="background:#2a1a3a;">🧠</div>
+          <div>
+            <div>Diseño IA (Paso 0)</div>
+            <div class="meta">Score · observaciones · norte</div>
+          </div>
+          <div class="status-dot status-warn" title="Score bajo"></div>
+        </div>
+
+        <div class="dd-item">
+          <div class="icon" style="background:#2a2a1a;">📐</div>
+          <div>
+            <div>DWG Extractor</div>
+            <div class="meta">Importar plano · capas · SLE</div>
+          </div>
+          <div class="status-dot status-idle" title="Sin datos"></div>
+        </div>
+
+        <div class="dd-item" style="border-bottom:none;">
+          <div class="icon" style="background:#1a1a3a;">🔗</div>
+          <div>
+            <div>Contexto del Proyecto</div>
+            <div class="meta">Ver todo lo que sabe la IA</div>
+          </div>
+          <div class="status-dot status-active"></div>
+        </div>
+
+        <div class="dd-footer">● 3 módulos activos en este proyecto</div>
+      </div>
+    </div>
+
+    <div class="menu-item">Archivo</div>
+    <div class="menu-item">Editar</div>
+    <div class="menu-item">Ver</div>
+    <div class="menu-item">Capas</div>
+    <div class="menu-item">Herramientas</div>
+    <div class="menu-item">SLE</div>
+    <div class="menu-item">Ayuda</div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <button class="tb-btn">↩ Deshacer</button>
+    <button class="tb-btn">↪ Rehacer</button>
+    <div class="tb-sep"></div>
+    <button class="tb-btn">📏 Línea</button>
+    <button class="tb-btn">⬜ Polilínea</button>
+    <button class="tb-btn">⭕ Círculo</button>
+    <button class="tb-btn">🔤 Texto</button>
+    <div class="tb-sep"></div>
+    <button class="tb-btn">🔍 Zoom ext.</button>
+    <button class="tb-btn">📐 Acotación</button>
+    <div class="tb-sep"></div>
+    <button class="tb-btn" style="color:#4ade80; border-color:#2d5a2d; background:#1a3a1a;">⚡ Ejes</button>
+    <button class="tb-btn" style="color:#818cf8; border-color:#4a4a8a; background:#1a1a3a;">🤖 IA Asistente</button>
+  </div>
+
+  <!-- Área principal -->
+  <div class="main-area">
+
+    <!-- Canvas CAD -->
+    <div class="cad-canvas">
+      <div class="canvas-grid"></div>
+      <div class="canvas-label">
+        <div class="big">📐</div>
+        <p>Canvas CAD — sin cambios</p>
+        <p style="margin-top:4px; font-size:10px;">El canvas ocupa todo el espacio restante</p>
+      </div>
+    </div>
+
+    <!-- Panel lateral de módulos (opcional, colapsable) -->
+    <div class="side-modules">
+      <div class="side-header">
+        ⬡ Hub Central — Módulos
+        <span style="margin-left:auto; cursor:pointer; opacity:0.5;">✕</span>
+      </div>
+
+      <!-- Terreno activo y expandido -->
+      <div class="module-panel">
+        <div class="module-tab active">
+          <span class="icon">🗺️</span>
+          Terreno del Lote
+          <span class="tag open">abierto</span>
+        </div>
+        <div class="module-content">
+          <div class="row"><span>Área total</span><span class="val">1,245.84 m²</span></div>
+          <div class="row"><span>Huella máx.</span><span class="val">622 m²</span></div>
+          <div class="row"><span>Cobertura</span><span class="val">50 %</span></div>
+          <div class="row"><span>Norte lote</span><span class="val">norte</span></div>
+          <div class="row"><span>Retiro frontal</span><span class="val">2.0 m</span></div>
+          <div class="row"><span>Retiro posterior</span><span class="val">3.0 m</span></div>
+        </div>
+      </div>
+
+      <!-- Programa -->
+      <div class="module-panel">
+        <div class="module-tab active">
+          <span class="icon">📋</span>
+          Programa Arquitectónico
+          <span class="tag open">abierto</span>
+        </div>
+        <div class="module-content">
+          <div class="row"><span>Total m²</span><span class="val">280 m²</span></div>
+          <div class="row"><span>Dormitorios</span><span class="val">3 dorm</span></div>
+          <div class="row"><span>Perfil</span><span class="val">familia media</span></div>
+          <div class="row"><span>Normativa</span><span class="val" style="color:#4ade80;">✓ cumple</span></div>
+        </div>
+      </div>
+
+      <!-- Diseño Paso 0 -->
+      <div class="module-panel">
+        <div class="module-tab active">
+          <span class="icon">🧠</span>
+          Diseño Paso 0
+          <span class="tag open">abierto</span>
+        </div>
+        <div class="module-content">
+          <div class="row"><span>Score</span><span class="val" style="color:#f59e0b;">67 / 100</span></div>
+          <div class="row"><span>Norte</span><span class="val">norte</span></div>
+          <div style="margin-top:4px; color:#f59e0b;">⚠ Sala sin iluminación natural</div>
+          <div style="color:#f59e0b;">⚠ Cocina orientación este</div>
+        </div>
+      </div>
+
+      <!-- DWG y Contexto colapsados -->
+      <div class="module-panel">
+        <div class="module-tab">
+          <span class="icon">📐</span>
+          DWG Extractor
+          <span class="tag">cerrado</span>
+        </div>
+      </div>
+
+      <div class="module-panel" style="border-bottom:none;">
+        <div class="module-tab">
+          <span class="icon">🔗</span>
+          Contexto IA
+          <span class="tag open">activo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Barra de comandos -->
+  <div class="cmd-bar">
+    <button class="cmd-mode-btn cad">CAD</button>
+    <button class="cmd-mode-btn ia">IA 🤖</button>
+    <input class="cmd-input" value="¿Cuánta huella me queda disponible si el programa es de 280 m²?" readonly>
+    <button class="cmd-send">Enviar</button>
+  </div>
+
+</div>
+
+<!-- LEYENDA -->
+<div class="legend">
+  <div class="legend-card">
+    <h3>📍 Dónde va el menú</h3>
+    <p>
+      <strong style="color:#60aaff;">Hub Central</strong> aparece como el <strong>primer ítem en la barra de menú</strong>, antes de Archivo. Tiene un badge con el número de módulos activos.<br><br>
+      Al hacer clic despliega los 5 módulos con su estado (verde = datos cargados, gris = vacío, amarillo = advertencia).
+    </p>
+  </div>
+  <div class="legend-card">
+    <h3>📌 Panel lateral (opcional)</h3>
+    <p>
+      Cuando se abre un módulo, puede mostrarse como un <strong>panel lateral colapsable</strong> a la derecha del canvas — no roba espacio de forma, solo aparece cuando se necesita.<br><br>
+      El usuario puede cerrarlo con ✕ y volver al canvas limpio.
+    </p>
+  </div>
+  <div class="legend-card">
+    <h3>⚡ Lo que NO cambia</h3>
+    <p>
+      <span class="pro">✓</span> Canvas CAD intacto — mismo tamaño<br>
+      <span class="pro">✓</span> Barra de comandos igual<br>
+      <span class="pro">✓</span> Código interno de cada módulo sin tocar<br>
+      <span class="pro">✓</span> La IA ya sabe el contexto (settings.json)<br>
+      <span class="con">✗</span> El panel lateral es nuevo código (~2 días)
+    </p>
+  </div>
+</div>
+
+<div class="arrow-note">
+  <div class="icon">💡</div>
+  <div>
+    <strong>Alternativa más simple (opción A):</strong> sin panel lateral — los módulos abren su ventana Toplevel flotante normal al lado del CAD Visor, igual que hoy pero lanzados desde el menú Hub Central. Funciona en 2 horas, cero riesgo.<br>
+    <strong>Alternativa con panel (opción B):</strong> el mockup de arriba — panel lateral integrado, resumen de datos en tiempo real, ~2 días de trabajo.
+  </div>
+</div>
+
+</body>
+</html>

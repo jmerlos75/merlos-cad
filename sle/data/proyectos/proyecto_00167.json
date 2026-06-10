@@ -1,0 +1,259 @@
+{
+  "proyecto_id": 167,
+  "timestamp": "2026-05-26T17:39:13",
+  "prompt": "DWG Casa Edwin Rodriguez.dwg — Nivel 2",
+  "score": 55,
+  "features": {
+    "n_dormitorios": 0,
+    "n_banos": 0,
+    "area_total_m2": 0.0,
+    "tiene_cochera": 0,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 0,
+    "tiene_lavanderia": 0,
+    "tiene_sala_comedor_integrado": 0,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "origen": "dwg_merlos",
+    "archivo": "Casa Edwin Rodriguez.dwg",
+    "nivel": 2,
+    "grid": {
+      "ancho_m": 5.9,
+      "alto_m": 5.9
+    },
+    "recintos": [
+      {
+        "nombre": "OTRO",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 7.1,
+        "col": 2.6,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_2",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 4.3,
+        "col": 2.8,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_3",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 7.5,
+        "col": 2.8,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_4",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 6.4,
+        "col": 3.4,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_5",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 6.8,
+        "col": 3.4,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_6",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 3.7,
+        "col": 3.6,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_7",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 4.0,
+        "col": 4.3,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_8",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 4.6,
+        "col": 4.4,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_9",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 4.2,
+        "col": 9.1,
+        "ancho": 1.0,
+        "alto": 4.97
+      }
+    ],
+    "adyacencias": [
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_3",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_4",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_5",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_6",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_3",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_4",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_5",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_6",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_3",
+        "hacia": "OTRO_4",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_3",
+        "hacia": "OTRO_5",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_3",
+        "hacia": "OTRO_6",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_3",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_3",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_4",
+        "hacia": "OTRO_5",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_4",
+        "hacia": "OTRO_6",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_4",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_4",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_5",
+        "hacia": "OTRO_6",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_5",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_5",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_6",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_6",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_7",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      }
+    ],
+    "scores": {
+      "total": 55,
+      "orientacion": 50,
+      "zonificacion": 0,
+      "proporciones": 100,
+      "cochera": 100
+    }
+  }
+}

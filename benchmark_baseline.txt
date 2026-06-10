@@ -1,0 +1,13 @@
+BENCHMARK
+Fecha     : 2026-05-30 11:47
+Escena    : Casa Merlos (DXF real)
+Entidades : 928
+
+[zoom-fit sc=0.027]
+  Avg=15.4ms  FPS=64.9
+
+[zoom-work sc=40]
+  Avg=2.6ms  FPS=381.9
+
+[zoom-detail sc=200]
+  Avg=2.7ms  FPS=376.0

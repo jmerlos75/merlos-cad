@@ -1,0 +1,1705 @@
+{
+  "source": "Planos Casa Merlos (cambio en cochera) v13.dwg",
+  "autocad_version": "25.0s (LMS Tech)",
+  "textstyles": {
+    "count": 49,
+    "records": [
+      {
+        "name": "Standard",
+        "font_file": "arial.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "ROMANS",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "ARCHIT",
+        "font_file": "archstyl.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "GARAMOND",
+        "font_file": "GARA.TTF",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "SANSSERIF",
+        "font_file": "sanssb__.ttf",
+        "bigfont": "",
+        "height": 3.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "ROMAND",
+        "font_file": "ROMAND9.SHX",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "Detalle previstas TV plasma$0$ME",
+        "font_file": "ARIALN.TTF",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "DET-CAJA REGISTRO 4$0$ROMANS",
+        "font_file": "ROMANS.shx",
+        "bigfont": "",
+        "height": 0.16,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DET DE CAJA REGISTRO PLUVIAL #2 CASA LILLY F.26-08-08$0$DET-CAJA REGISTRO 4$0$ROMANS",
+        "font_file": "ROMANS.shx",
+        "bigfont": "",
+        "height": 0.16,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DET-TANQ-CASA PURRAL$0$1",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "ARCHIS",
+        "font_file": "archstyl.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DETALLE DE VIGAS$0$subtitulo",
+        "font_file": "romand.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "PLANTA ESTRUCTURAL$0$STYLE1",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "ss",
+        "font_file": "swissel.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "LEROY",
+        "font_file": "bgothl.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "PLANTA ARQUITECTONICA$0$ROMANS",
+        "font_file": "romans",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "PLANTA TECHOS$0$texto",
+        "font_file": "simplex.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 0.7,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "Arial",
+        "font_file": "arial.ttf",
+        "bigfont": "",
+        "height": 147.52994,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "BANKGOTHIC",
+        "font_file": "bgothl.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.35,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "cotas",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DETALLE DE DOBLEZ TIPICO L7H$0$LEROY",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DETALLE DE DOBLEZ TIPICO L7H$0$TITULO",
+        "font_file": "romand.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "D-AROS DE REFUERZO$0$romantic  tp",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DETALLE PARED EN GYPSUM L7H$0$ROMANS",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DET DE INST.TABLILLA PLYCEM$0$STANDARD",
+        "font_file": "simplex.shx",
+        "bigfont": "",
+        "height": 2.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "DET-CAJA REGISTRO 4$0$Standard",
+        "font_file": "txt",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "DET-CAJA REGISTRO 4$0$NOTAS",
+        "font_file": "simplex.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "TGPS",
+        "font_file": "ROMANC.shx",
+        "bigfont": "",
+        "height": 0.3,
+        "x_scale": 0.8,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "TGD",
+        "font_file": "ROMANC.shx",
+        "bigfont": "",
+        "height": 0.015,
+        "x_scale": 0.8,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "TPD",
+        "font_file": "ROMANS.shx",
+        "bigfont": "",
+        "height": 0.01,
+        "x_scale": 0.8,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "MECANICO CASA MOD$0$Arial",
+        "font_file": "arial.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "TITULO",
+        "font_file": "romanc.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 0.8,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "UNI",
+        "font_file": "swissel.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "UNI-DET",
+        "font_file": "swissel.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "TPPS",
+        "font_file": "ROMANS.SHX",
+        "bigfont": "",
+        "height": 0.15,
+        "x_scale": 0.8,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "MECANICO CASA MOD$0$MEC",
+        "font_file": "simplex9.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "MECANICO CASA MOD$0$LEROY",
+        "font_file": "SIMPLEX.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 0.75,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "R2",
+        "font_file": "ITALIC.SHX",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "Verdana",
+        "font_file": "verdana.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "STYLE1",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "TEXTO_CORRIENTE",
+        "font_file": "swissl.ttf",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "TITULO_3",
+        "font_file": "swiss.ttf",
+        "bigfont": "",
+        "height": 0.5,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "ROM",
+        "font_file": "ROMANS.SHX",
+        "bigfont": "",
+        "height": 2.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "Det-Toma-Polarizado$0$LEROYF",
+        "font_file": "SIMPLEX.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 0.75,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "Detalle previstas TV plasma$0$ROMANS",
+        "font_file": "romans",
+        "bigfont": "",
+        "height": 0.1,
+        "x_scale": 1.4,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "LMGG",
+        "font_file": "arial.ttf",
+        "bigfont": "",
+        "height": 0.09,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": false
+      },
+      {
+        "name": "ST50",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      },
+      {
+        "name": "SIMPLEXE",
+        "font_file": "SIMPLEXE.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 5.0,
+        "is_shx": true
+      },
+      {
+        "name": "DETALLE DE COLUMNAS$0$romantic  tp",
+        "font_file": "romans.shx",
+        "bigfont": "",
+        "height": 0.0,
+        "x_scale": 1.0,
+        "oblique_deg": 0.0,
+        "is_shx": true
+      }
+    ]
+  },
+  "dimstyles": {
+    "count": 15,
+    "records": [
+      {
+        "name": "Standard",
+        "dimtxt": 0.25,
+        "dimasz": 0.18,
+        "dimscale": 1.0,
+        "dimexo": 0.0625,
+        "dimexe": 0.18,
+        "dimdle": 0.0,
+        "dimgap": 0.09,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 256,
+        "dimclrd": 256,
+        "dimclre": 256,
+        "dimtxsty": "Standard",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "1-10",
+        "dimtxt": 1.25,
+        "dimasz": 1.0,
+        "dimscale": 1.0,
+        "dimexo": 1.0,
+        "dimexe": 0.0,
+        "dimdle": 0.0,
+        "dimgap": 1.0,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "_ARCHTICK",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 3,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "ROMANS",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "1-20",
+        "dimtxt": 0.25,
+        "dimasz": 0.18,
+        "dimscale": 0.222,
+        "dimexo": 0.0625,
+        "dimexe": 0.18,
+        "dimdle": 0.0,
+        "dimgap": 0.09,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 2,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "ROMANS",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "1-50",
+        "dimtxt": 2.5,
+        "dimasz": 2.0,
+        "dimscale": 5.0,
+        "dimexo": 1.0,
+        "dimexe": 0.0,
+        "dimdle": 0.0,
+        "dimgap": 1.0,
+        "dimtad": 1,
+        "dimdec": 0,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "_ARCHTICK",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 3,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "ROMANS",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "COTA",
+        "dimtxt": 0.06,
+        "dimasz": 0.025,
+        "dimscale": 0.0,
+        "dimexo": 0.01,
+        "dimexe": 0.1,
+        "dimdle": 0.0,
+        "dimgap": 0.0,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "_Dot",
+        "dimblk2": "_Dot",
+        "dimclrt": 2,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "Standard",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "ISO-25",
+        "dimtxt": 2.5,
+        "dimasz": 2.5,
+        "dimscale": 1.0,
+        "dimexo": 0.625,
+        "dimexe": 1.25,
+        "dimdle": 0.0,
+        "dimgap": 0.625,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": "44",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 256,
+        "dimclrd": 256,
+        "dimclre": 256,
+        "dimtxsty": "Standard",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "ICE",
+        "dimtxt": 2.6,
+        "dimasz": 2.0,
+        "dimscale": 1.0,
+        "dimexo": 0.125,
+        "dimexe": 2.0,
+        "dimdle": 0.0,
+        "dimgap": 1.0,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "_ARCHTICK",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 2,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "cotas",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "DET DE INST.TABLILLA PLYCEM$0$STANDARD",
+        "dimtxt": 0.25,
+        "dimasz": 2.0,
+        "dimscale": 1.0,
+        "dimexo": 2.0,
+        "dimexe": 2.0,
+        "dimdle": 0.0,
+        "dimgap": 0.09,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "cm",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 2,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "DET DE INST.TABLILLA PLYCEM$0$STANDARD",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "DET-CAJA REGISTRO 4$0$ISO-25",
+        "dimtxt": 2.5,
+        "dimasz": 2.5,
+        "dimscale": 1.0,
+        "dimexo": 0.625,
+        "dimexe": 1.25,
+        "dimdle": 0.0,
+        "dimgap": 0.625,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": "44",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 256,
+        "dimclrd": 256,
+        "dimclre": 256,
+        "dimtxsty": "DET-CAJA REGISTRO 4$0$Standard",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "DET-CAJA REGISTRO 4$0$Escala1.10",
+        "dimtxt": 2.0,
+        "dimasz": 2.0,
+        "dimscale": 1.0,
+        "dimexo": 0.125,
+        "dimexe": 2.0,
+        "dimdle": 0.0,
+        "dimgap": 1.0,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "DET-CAJA REGISTRO 4$0$_ArchTick",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 2,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "DET-CAJA REGISTRO 4$0$NOTAS",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "DIMDET1",
+        "dimtxt": 0.1,
+        "dimasz": 0.1,
+        "dimscale": 0.3,
+        "dimexo": 0.05,
+        "dimexe": 0.05,
+        "dimdle": 0.0,
+        "dimgap": 0.0,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 3,
+        "dimclrd": 2,
+        "dimclre": 2,
+        "dimtxsty": "TGPS",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "MIGUEL",
+        "dimtxt": 2.0,
+        "dimasz": 0.125,
+        "dimscale": 11.111,
+        "dimexo": 0.063,
+        "dimexe": 0.18,
+        "dimdle": 0.0,
+        "dimgap": 0.09,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 2,
+        "dimclrd": 1,
+        "dimclre": 1,
+        "dimtxsty": "ROM",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "Det-Toma-Polarizado$0$1-1000",
+        "dimtxt": 0.002,
+        "dimasz": 0.002,
+        "dimscale": 1000.0,
+        "dimexo": 0.001,
+        "dimexe": 0.002,
+        "dimdle": 0.002,
+        "dimgap": 0.001,
+        "dimtad": 3,
+        "dimdec": 3,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 50,
+        "dimclrd": 20,
+        "dimclre": 8,
+        "dimtxsty": "Det-Toma-Polarizado$0$LEROYF",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "Detalle previstas TV plasma$0$Standard",
+        "dimtxt": 0.05,
+        "dimasz": 0.08,
+        "dimscale": 1.0,
+        "dimexo": 0.02,
+        "dimexe": 0.02,
+        "dimdle": 0.0,
+        "dimgap": 0.02,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "Detalle previstas TV plasma$0$_ARCHTICK",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 6,
+        "dimclrd": 256,
+        "dimclre": 256,
+        "dimtxsty": "Detalle previstas TV plasma$0$ME",
+        "_source": "ezdxf"
+      },
+      {
+        "name": "Detalle previstas TV plasma$0$BOD",
+        "dimtxt": 0.0025,
+        "dimasz": 0.0015,
+        "dimscale": 100.0,
+        "dimexo": 0.0015,
+        "dimexe": 0.0015,
+        "dimdle": 0.0015,
+        "dimgap": 0.001,
+        "dimtad": 1,
+        "dimdec": 2,
+        "dimdsep": ".",
+        "dimpost": "",
+        "dimlunit": 2,
+        "dimaunit": 0,
+        "dimblk": "",
+        "dimblk1": "",
+        "dimblk2": "",
+        "dimclrt": 2,
+        "dimclrd": 7,
+        "dimclre": 7,
+        "dimtxsty": "Detalle previstas TV plasma$0$ROMANS",
+        "_source": "ezdxf"
+      }
+    ]
+  },
+  "hatch_patterns": {
+    "total_used": 16,
+    "found_in_pat": 10,
+    "not_found": 6,
+    "missing_list": [
+      "CASCOTE",
+      "ENDGRAIN",
+      "MADER-1",
+      "SKIRTING",
+      "WOOD-F5",
+      "XYLO1"
+    ],
+    "definitions": {
+      "ANSI31": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 45.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.0,
+            "dy": 0.125,
+            "dashes": []
+          }
+        ]
+      },
+      "AR-CONC": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 50.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 4.12975034,
+            "dy": -5.89789472,
+            "dashes": [
+              0.75,
+              -8.25
+            ]
+          },
+          {
+            "angle": 355.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": -2.03781207,
+            "dy": 7.3723684,
+            "dashes": [
+              0.6,
+              -6.6
+            ]
+          },
+          {
+            "angle": 100.45144446,
+            "x0": 0.59771681,
+            "y0": -0.05229344,
+            "dx": 5.7305871,
+            "dy": -6.9397673,
+            "dashes": [
+              0.637402,
+              -7.011421
+            ]
+          },
+          {
+            "angle": 46.1842,
+            "x0": 0.0,
+            "y0": 2.0,
+            "dx": 6.19462554,
+            "dy": -8.84684596,
+            "dashes": [
+              1.125,
+              -12.375
+            ]
+          },
+          {
+            "angle": 96.63563549,
+            "x0": 0.88936745,
+            "y0": 1.86206693,
+            "dx": 8.59588239,
+            "dy": -10.40964966,
+            "dashes": [
+              0.956103,
+              -10.517138
+            ]
+          },
+          {
+            "angle": 351.18416399,
+            "x0": 0.0,
+            "y0": 2.0,
+            "dx": 7.74327494,
+            "dy": 11.05855746,
+            "dashes": [
+              0.9,
+              -9.9
+            ]
+          },
+          {
+            "angle": 21.0,
+            "x0": 1.0,
+            "y0": 1.5,
+            "dx": 4.12975034,
+            "dy": -5.89789472,
+            "dashes": [
+              0.75,
+              -8.25
+            ]
+          },
+          {
+            "angle": 326.0,
+            "x0": 1.0,
+            "y0": 1.5,
+            "dx": -2.03781207,
+            "dy": 7.3723684,
+            "dashes": [
+              0.6,
+              -6.6
+            ]
+          },
+          {
+            "angle": 71.45144474,
+            "x0": 1.49742254,
+            "y0": 1.16448426,
+            "dx": 5.7305871,
+            "dy": -6.9397673,
+            "dashes": [
+              0.637402,
+              -7.011421
+            ]
+          },
+          {
+            "angle": 37.5,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 2.123,
+            "dy": 2.567,
+            "dashes": [
+              0.0,
+              -6.52,
+              0.0,
+              -6.7,
+              0.0,
+              -6.625
+            ]
+          },
+          {
+            "angle": 7.5,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 3.123,
+            "dy": 3.567,
+            "dashes": [
+              0.0,
+              -3.82,
+              0.0,
+              -6.37,
+              0.0,
+              -2.525
+            ]
+          },
+          {
+            "angle": -32.5,
+            "x0": -2.23,
+            "y0": 0.0,
+            "dx": 4.6234,
+            "dy": 2.678,
+            "dashes": [
+              0.0,
+              -2.5,
+              0.0,
+              -7.8,
+              0.0,
+              -10.35
+            ]
+          },
+          {
+            "angle": -42.5,
+            "x0": -3.23,
+            "y0": 0.0,
+            "dx": 3.6234,
+            "dy": 4.678,
+            "dashes": [
+              0.0,
+              -3.25,
+              0.0,
+              -5.18,
+              0.0,
+              -7.35
+            ]
+          }
+        ]
+      },
+      "AR-SAND": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 37.5,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 1.123,
+            "dy": 1.567,
+            "dashes": [
+              0.0,
+              -1.52,
+              0.0,
+              -1.7,
+              0.0,
+              -1.625
+            ]
+          },
+          {
+            "angle": 7.5,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 2.123,
+            "dy": 2.567,
+            "dashes": [
+              0.0,
+              -0.82,
+              0.0,
+              -1.37,
+              0.0,
+              -0.525
+            ]
+          },
+          {
+            "angle": -32.5,
+            "x0": -1.23,
+            "y0": 0.0,
+            "dx": 2.6234,
+            "dy": 1.678,
+            "dashes": [
+              0.0,
+              -0.5,
+              0.0,
+              -1.8,
+              0.0,
+              -2.35
+            ]
+          },
+          {
+            "angle": -42.5,
+            "x0": -1.23,
+            "y0": 0.0,
+            "dx": 1.6234,
+            "dy": 2.678,
+            "dashes": [
+              0.0,
+              -0.25,
+              0.0,
+              -1.18,
+              0.0,
+              -1.35
+            ]
+          }
+        ]
+      },
+      "CASCOTE": {
+        "status": "not_found",
+        "lines": [],
+        "note": "Patrón personalizado sin .pat accesible — necesita fallback en export"
+      },
+      "DOTS": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 0.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.03125,
+            "dy": 0.0625,
+            "dashes": [
+              0.0,
+              -0.0625
+            ]
+          }
+        ]
+      },
+      "EARTH": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 0.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.25,
+            "dy": 0.25,
+            "dashes": [
+              0.25,
+              -0.25
+            ]
+          },
+          {
+            "angle": 0.0,
+            "x0": 0.0,
+            "y0": 0.09375,
+            "dx": 0.25,
+            "dy": 0.25,
+            "dashes": [
+              0.25,
+              -0.25
+            ]
+          },
+          {
+            "angle": 0.0,
+            "x0": 0.0,
+            "y0": 0.1875,
+            "dx": 0.25,
+            "dy": 0.25,
+            "dashes": [
+              0.25,
+              -0.25
+            ]
+          },
+          {
+            "angle": 90.0,
+            "x0": 0.03125,
+            "y0": 0.21875,
+            "dx": 0.25,
+            "dy": 0.25,
+            "dashes": [
+              0.25,
+              -0.25
+            ]
+          },
+          {
+            "angle": 90.0,
+            "x0": 0.125,
+            "y0": 0.21875,
+            "dx": 0.25,
+            "dy": 0.25,
+            "dashes": [
+              0.25,
+              -0.25
+            ]
+          },
+          {
+            "angle": 90.0,
+            "x0": 0.21875,
+            "y0": 0.21875,
+            "dx": 0.25,
+            "dy": 0.25,
+            "dashes": [
+              0.25,
+              -0.25
+            ]
+          }
+        ]
+      },
+      "ENDGRAIN": {
+        "status": "not_found",
+        "lines": [],
+        "note": "Patrón personalizado sin .pat accesible — necesita fallback en export"
+      },
+      "GRAVEL": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 228.012787504,
+            "x0": 0.72,
+            "y0": 1.0,
+            "dx": 12.0413651692039,
+            "dy": 0.0743294146632,
+            "dashes": [
+              0.134536,
+              -13.319088
+            ]
+          },
+          {
+            "angle": 184.969740728,
+            "x0": 0.63,
+            "y0": 0.9,
+            "dx": -12.0415166747131,
+            "dy": 0.0433148081592,
+            "dashes": [
+              0.230868,
+              -22.855925
+            ]
+          },
+          {
+            "angle": 132.510447078,
+            "x0": 0.4,
+            "y0": 0.88,
+            "dx": -14.8659418273816,
+            "dy": 0.061429511683,
+            "dashes": [
+              0.162788,
+              -16.116033
+            ]
+          },
+          {
+            "angle": 267.273689006,
+            "x0": 0.01,
+            "y0": 0.63,
+            "dx": -20.0249279039043,
+            "dy": 0.0475651493827,
+            "dashes": [
+              0.210238,
+              -20.813558
+            ]
+          },
+          {
+            "angle": 292.833654178,
+            "x0": 0.0,
+            "y0": 0.42,
+            "dx": -12.9999095019474,
+            "dy": 0.048507125026,
+            "dashes": [
+              0.206155,
+              -20.409373
+            ]
+          },
+          {
+            "angle": 357.273689006,
+            "x0": 0.08,
+            "y0": 0.23,
+            "dx": -20.0249279039043,
+            "dy": 0.0475651493827,
+            "dashes": [
+              0.210238,
+              -20.813558
+            ]
+          },
+          {
+            "angle": 37.6942404667,
+            "x0": 0.29,
+            "y0": 0.22,
+            "dx": -16.4011800288558,
+            "dy": 0.0359675000664,
+            "dashes": [
+              0.278029,
+              -27.524849
+            ]
+          },
+          {
+            "angle": 72.2553283749,
+            "x0": 0.51,
+            "y0": 0.39,
+            "dx": 23.0867613281116,
+            "dy": 0.0380969659053,
+            "dashes": [
+              0.262488,
+              -25.986321
+            ]
+          },
+          {
+            "angle": 121.429565615,
+            "x0": 0.59,
+            "y0": 0.64,
+            "dx": 15.2642639131074,
+            "dy": 0.047404546271,
+            "dashes": [
+              0.21095,
+              -20.884073
+            ]
+          },
+          {
+            "angle": 175.236358309,
+            "x0": 0.48,
+            "y0": 0.82,
+            "dx": -11.0450488205478,
+            "dy": 0.083045479801,
+            "dashes": [
+              0.240832,
+              -11.800763
+            ]
+          },
+          {
+            "angle": 222.397437798,
+            "x0": 0.24,
+            "y0": 0.84,
+            "dx": 16.2787889313724,
+            "dy": 0.0321080648114,
+            "dashes": [
+              0.311448,
+              -30.833375
+            ]
+          },
+          {
+            "angle": 138.814074834,
+            "x0": 1.0,
+            "y0": 0.62,
+            "dx": 9.2190645101588,
+            "dy": 0.0940720868851,
+            "dashes": [
+              0.106301,
+              -10.523845
+            ]
+          },
+          {
+            "angle": 171.46923439,
+            "x0": 0.92,
+            "y0": 0.69,
+            "dx": -13.1528534931484,
+            "dy": 0.0494468176315,
+            "dashes": [
+              0.202237,
+              -20.021511
+            ]
+          },
+          {
+            "angle": 225.0,
+            "x0": 0.72,
+            "y0": 0.72,
+            "dx": 0.7071067811865,
+            "dy": 0.7071067811865,
+            "dashes": [
+              0.141421,
+              -1.272793
+            ]
+          },
+          {
+            "angle": 203.198590514,
+            "x0": 0.65,
+            "y0": 0.84,
+            "dx": -5.3835637472478,
+            "dy": 0.1313064328928,
+            "dashes": [
+              0.076158,
+              -7.539615
+            ]
+          },
+          {
+            "angle": 291.801409486,
+            "x0": 0.58,
+            "y0": 0.81,
+            "dx": -3.156820749011,
+            "dy": 0.185695338158,
+            "dashes": [
+              0.107703,
+              -5.277462
+            ]
+          },
+          {
+            "angle": 30.9637565321,
+            "x0": 0.62,
+            "y0": 0.71,
+            "dx": 3.6014702879928,
+            "dy": 0.1714985851408,
+            "dashes": [
+              0.174929,
+              -5.656023
+            ]
+          },
+          {
+            "angle": 161.565051177,
+            "x0": 0.77,
+            "y0": 0.8,
+            "dx": -2.2135943621183,
+            "dy": 0.3162277660138,
+            "dashes": [
+              0.126491,
+              -3.035787
+            ]
+          },
+          {
+            "angle": 16.389540334,
+            "x0": 0.0,
+            "y0": 0.81,
+            "dx": 10.4401539876873,
+            "dy": 0.0564332648047,
+            "dashes": [
+              0.1772,
+              -17.542845
+            ]
+          },
+          {
+            "angle": 70.3461759419,
+            "x0": 0.17,
+            "y0": 0.86,
+            "dx": -11.7045066155395,
+            "dy": 0.0672672793901,
+            "dashes": [
+              0.148661,
+              -14.717408
+            ]
+          },
+          {
+            "angle": 293.198590514,
+            "x0": 0.77,
+            "y0": 1.0,
+            "dx": -5.3835637472478,
+            "dy": 0.1313064328928,
+            "dashes": [
+              0.152315,
+              -7.463458
+            ]
+          },
+          {
+            "angle": 343.610459666,
+            "x0": 0.83,
+            "y0": 0.86,
+            "dx": -10.4401539876873,
+            "dy": 0.0564332648047,
+            "dashes": [
+              0.1772,
+              -17.542845
+            ]
+          },
+          {
+            "angle": 339.44395478,
+            "x0": 0.0,
+            "y0": 0.19,
+            "dx": -5.3838927710229,
+            "dy": 0.117041147157,
+            "dashes": [
+              0.17088,
+              -8.373124
+            ]
+          },
+          {
+            "angle": 294.775140569,
+            "x0": 0.16,
+            "y0": 0.13,
+            "dx": -12.0828441168135,
+            "dy": 0.0698430296124,
+            "dashes": [
+              0.143178,
+              -14.174643
+            ]
+          },
+          {
+            "angle": 66.8014094864,
+            "x0": 0.78,
+            "y0": 0.0,
+            "dx": 5.3835637472487,
+            "dy": 0.1313064328552,
+            "dashes": [
+              0.152315,
+              -7.463458
+            ]
+          },
+          {
+            "angle": 17.3540246363,
+            "x0": 0.84,
+            "y0": 0.14,
+            "dx": -13.6013396869991,
+            "dy": 0.0596549986364,
+            "dashes": [
+              0.167631,
+              -16.595424
+            ]
+          },
+          {
+            "angle": 69.4439547804,
+            "x0": 0.29,
+            "y0": 0.0,
+            "dx": -5.383892771022,
+            "dy": 0.1170411471946,
+            "dashes": [
+              0.08544,
+              -8.458564
+            ]
+          },
+          {
+            "angle": 101.309932474,
+            "x0": 0.72,
+            "y0": 0.0,
+            "dx": 4.1184388379018,
+            "dy": 0.1961161351396,
+            "dashes": [
+              0.05099,
+              -5.04803
+            ]
+          },
+          {
+            "angle": 165.963756532,
+            "x0": 0.71,
+            "y0": 0.05,
+            "dx": -3.1529631254726,
+            "dy": 0.2425356250323,
+            "dashes": [
+              0.206155,
+              -3.916951
+            ]
+          },
+          {
+            "angle": 186.009005957,
+            "x0": 0.51,
+            "y0": 0.1,
+            "dx": -10.0497393137326,
+            "dy": 0.0523423921723,
+            "dashes": [
+              0.19105,
+              -18.913923
+            ]
+          },
+          {
+            "angle": 303.690067526,
+            "x0": 0.62,
+            "y0": 0.62,
+            "dx": -2.2188007849008,
+            "dy": 0.2773500981134,
+            "dashes": [
+              0.144222,
+              -3.461329
+            ]
+          },
+          {
+            "angle": 353.157226587,
+            "x0": 0.7,
+            "y0": 0.5,
+            "dx": 17.1171966955143,
+            "dy": 0.0397150736497,
+            "dashes": [
+              0.251794,
+              -24.927563
+            ]
+          },
+          {
+            "angle": 60.9453959009,
+            "x0": 0.95,
+            "y0": 0.47,
+            "dx": -8.0616726575653,
+            "dy": 0.0971285862325,
+            "dashes": [
+              0.102956,
+              -10.192674
+            ]
+          },
+          {
+            "angle": 90.0,
+            "x0": 1.0,
+            "y0": 0.56,
+            "dx": 1.0,
+            "dy": 1.0,
+            "dashes": [
+              0.06,
+              -0.94
+            ]
+          },
+          {
+            "angle": 120.256437164,
+            "x0": 0.49,
+            "y0": 0.13,
+            "dx": -8.0619364083848,
+            "dy": 0.0719815751411,
+            "dashes": [
+              0.138924,
+              -13.75352
+            ]
+          },
+          {
+            "angle": 48.0127875042,
+            "x0": 0.42,
+            "y0": 0.25,
+            "dx": 12.0413651692041,
+            "dy": 0.0743294146212,
+            "dashes": [
+              0.269072,
+              -13.184552
+            ]
+          },
+          {
+            "angle": 0.0,
+            "x0": 0.6,
+            "y0": 0.45,
+            "dx": 1.0,
+            "dy": 1.0,
+            "dashes": [
+              0.26,
+              -0.74
+            ]
+          },
+          {
+            "angle": 325.304846469,
+            "x0": 0.86,
+            "y0": 0.45,
+            "dx": 12.2063917682497,
+            "dy": -0.063245553253,
+            "dashes": [
+              0.158114,
+              -15.653274
+            ]
+          },
+          {
+            "angle": 254.054604099,
+            "x0": 0.99,
+            "y0": 0.36,
+            "dx": 4.1208169184605,
+            "dy": 0.1373605639542,
+            "dashes": [
+              0.145602,
+              -7.134508
+            ]
+          },
+          {
+            "angle": 207.645975364,
+            "x0": 0.95,
+            "y0": 0.22,
+            "dx": 21.4708691170287,
+            "dy": 0.0421824539631,
+            "dashes": [
+              0.237065,
+              -23.469474
+            ]
+          },
+          {
+            "angle": 175.42607874,
+            "x0": 0.74,
+            "y0": 0.11,
+            "dx": 13.0383438432524,
+            "dy": 0.039872611164,
+            "dashes": [
+              0.250799,
+              -24.829073
+            ]
+          }
+        ]
+      },
+      "LINE": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 0.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.0,
+            "dy": 0.125,
+            "dashes": []
+          }
+        ]
+      },
+      "MADER-1": {
+        "status": "not_found",
+        "lines": [],
+        "note": "Patrón personalizado sin .pat accesible — necesita fallback en export"
+      },
+      "NET": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 0.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.0,
+            "dy": 0.125,
+            "dashes": []
+          },
+          {
+            "angle": 90.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.0,
+            "dy": 0.125,
+            "dashes": []
+          }
+        ]
+      },
+      "SKIRTING": {
+        "status": "not_found",
+        "lines": [],
+        "note": "Patrón personalizado sin .pat accesible — necesita fallback en export"
+      },
+      "SOLID": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 45.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.0,
+            "dy": 0.125,
+            "dashes": []
+          }
+        ]
+      },
+      "SOLID,_O": {
+        "status": "found_in_acad_pat",
+        "lines": [
+          {
+            "angle": 45.0,
+            "x0": 0.0,
+            "y0": 0.0,
+            "dx": 0.0,
+            "dy": 0.125,
+            "dashes": []
+          }
+        ]
+      },
+      "WOOD-F5": {
+        "status": "not_found",
+        "lines": [],
+        "note": "Patrón personalizado sin .pat accesible — necesita fallback en export"
+      },
+      "XYLO1": {
+        "status": "not_found",
+        "lines": [],
+        "note": "Patrón personalizado sin .pat accesible — necesita fallback en export"
+      }
+    }
+  }
+}

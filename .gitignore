@@ -1,0 +1,36 @@
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache de previews generados en runtime
+cache/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos temporales
+*.tmp
+*.log
+_terreno_mapa.html
+
+# Datos de sesión y archivos generados en runtime (no son código fuente)
+config/settings.json
+config/recovery.json
+benchmark_opengl_result.txt
+test_text_output.png
+
+# Credenciales / configuración local
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

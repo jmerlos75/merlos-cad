@@ -1,0 +1,135 @@
+{
+  "proyecto_id": 203,
+  "timestamp": "2026-05-26T18:16:04",
+  "prompt": "Casa de 3 dormitorios, 3 baños, sala, comedor, cocina, lavandería, sala-comedor integrado, cuarto servicio, aproximadamente 119 m², norte del lote: sur",
+  "score": 87,
+  "features": {
+    "n_dormitorios": 3,
+    "n_banos": 3,
+    "area_total_m2": 119.0,
+    "tiene_cochera": 0,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 1,
+    "tiene_lavanderia": 1,
+    "tiene_sala_comedor_integrado": 1,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "grid": {
+      "ancho_m": 10.4,
+      "alto_m": 17.0
+    },
+    "recintos": [
+      {
+        "nombre": "MEDIO_BANO",
+        "fila": 0,
+        "col": 0,
+        "ancho": 1.4,
+        "alto": 1.4
+      },
+      {
+        "nombre": "SALA_COMEDOR",
+        "fila": 0,
+        "col": 1.4,
+        "ancho": 5,
+        "alto": 5
+      },
+      {
+        "nombre": "COCINA",
+        "fila": 0,
+        "col": 6.4,
+        "ancho": 4,
+        "alto": 3
+      },
+      {
+        "nombre": "VESTIBULO",
+        "fila": 5,
+        "col": 0,
+        "ancho": 10.4,
+        "alto": 1.0
+      },
+      {
+        "nombre": "DORMITORIO_2",
+        "fila": 6.0,
+        "col": 3.6,
+        "ancho": 4,
+        "alto": 3
+      },
+      {
+        "nombre": "DORMITORIO_3",
+        "fila": 9.0,
+        "col": 3.6,
+        "ancho": 4,
+        "alto": 3
+      },
+      {
+        "nombre": "BANO_COMPARTIDO",
+        "fila": 6.0,
+        "col": 0,
+        "ancho": 2.2,
+        "alto": 1.5
+      },
+      {
+        "nombre": "LAVANDERIA",
+        "fila": 9.0,
+        "col": 0,
+        "ancho": 2,
+        "alto": 2
+      },
+      {
+        "nombre": "DORMITORIO_PRINCIPAL",
+        "fila": 12.0,
+        "col": 3.6,
+        "ancho": 5,
+        "alto": 5
+      },
+      {
+        "nombre": "BANO_PRINCIPAL",
+        "fila": 12.0,
+        "col": 0,
+        "ancho": 3.0,
+        "alto": 2.5
+      },
+      {
+        "nombre": "CUARTO_SERVICIO",
+        "fila": 7.0,
+        "col": 0,
+        "ancho": 2,
+        "alto": 3
+      }
+    ],
+    "puertas": [
+      {
+        "tipo": "exterior",
+        "recinto": "SALA_COMEDOR",
+        "lado": "norte",
+        "ancho": 1.1
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "VESTIBULO",
+        "recinto2": "SALA_COMEDOR",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "SALA_COMEDOR",
+        "recinto2": "COCINA",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "MEDIO_BANO",
+        "recinto2": "SALA_COMEDOR",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "VESTIBULO",
+        "recinto2": "DORMITORIO_2",
+        "ancho": 1.0
+      }
+    ]
+  }
+}

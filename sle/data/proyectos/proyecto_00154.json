@@ -1,0 +1,231 @@
+{
+  "proyecto_id": 154,
+  "timestamp": "2026-05-26T16:42:56",
+  "prompt": "DWG Planos Casa Merlos.dwg — Nivel 2",
+  "score": 70,
+  "features": {
+    "n_dormitorios": 3,
+    "n_banos": 2,
+    "area_total_m2": 0.0,
+    "tiene_cochera": 0,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 0,
+    "tiene_lavanderia": 0,
+    "tiene_sala_comedor_integrado": 1,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "origen": "dwg_merlos",
+    "archivo": "Planos Casa Merlos.dwg",
+    "nivel": 2,
+    "grid": {
+      "ancho_m": 14.2,
+      "alto_m": 12.7
+    },
+    "recintos": [
+      {
+        "nombre": "SALA_COMEDOR",
+        "tipo": "sala_comedor",
+        "zona": "publica",
+        "fila": 7.2,
+        "col": 1.1,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "COCINA",
+        "tipo": "cocina",
+        "zona": "publica",
+        "fila": 5.6,
+        "col": 2.4,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "DORMITORIO",
+        "tipo": "dormitorio",
+        "zona": "privada",
+        "fila": 3.9,
+        "col": 3.7,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 6.9,
+        "col": 4.5,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "BANO",
+        "tipo": "bano",
+        "zona": "privada",
+        "fila": 3.7,
+        "col": 4.7,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "DORMITORIO_2",
+        "tipo": "dormitorio",
+        "zona": "privada",
+        "fila": 2.4,
+        "col": 5.4,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "PASILLO",
+        "tipo": "pasillo",
+        "zona": "circulacion",
+        "fila": 3.9,
+        "col": 5.9,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_2",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 6.0,
+        "col": 6.8,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "DORMITORIO_PRINCIPAL",
+        "tipo": "dormitorio_principal",
+        "zona": "privada",
+        "fila": 1.2,
+        "col": 7.3,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "ESTUDIO",
+        "tipo": "estudio",
+        "zona": "privada",
+        "fila": 7.8,
+        "col": 8.0,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "BANO_2",
+        "tipo": "bano",
+        "zona": "privada",
+        "fila": 2.3,
+        "col": 8.9,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_3",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 8.8,
+        "col": 8.9,
+        "ancho": 3.0,
+        "alto": 3.0
+      }
+    ],
+    "adyacencias": [
+      {
+        "de": "SALA_COMEDOR",
+        "hacia": "COCINA",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "COCINA",
+        "hacia": "DORMITORIO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "COCINA",
+        "hacia": "OTRO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "COCINA",
+        "hacia": "BANO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "DORMITORIO",
+        "hacia": "BANO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "DORMITORIO",
+        "hacia": "DORMITORIO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "DORMITORIO",
+        "hacia": "PASILLO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "BANO",
+        "hacia": "DORMITORIO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "BANO",
+        "hacia": "PASILLO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "BANO",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "DORMITORIO_2",
+        "hacia": "PASILLO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "DORMITORIO_2",
+        "hacia": "DORMITORIO_PRINCIPAL",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "PASILLO",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "ESTUDIO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "DORMITORIO_PRINCIPAL",
+        "hacia": "BANO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "ESTUDIO",
+        "hacia": "OTRO_3",
+        "tipo": "adyacente"
+      }
+    ],
+    "scores": {
+      "total": 70,
+      "orientacion": 39,
+      "zonificacion": 100,
+      "proporciones": 72,
+      "cochera": 100
+    }
+  }
+}

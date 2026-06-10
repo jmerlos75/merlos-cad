@@ -1,0 +1,159 @@
+{
+  "proyecto_id": 37,
+  "timestamp": "2026-05-26T13:34:39",
+  "prompt": "Casa de 3 dormitorios, 3 baños, sala, comedor, cocina, cochera, aproximadamente 135.85999999999999 m², norte del lote: oeste",
+  "score": 79,
+  "features": {
+    "n_dormitorios": 3,
+    "n_banos": 3,
+    "area_total_m2": 135.85999999999999,
+    "tiene_cochera": 1,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 0,
+    "tiene_lavanderia": 0,
+    "tiene_sala_comedor_integrado": 0,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "grid": {
+      "ancho_m": 19.4,
+      "alto_m": 14.0
+    },
+    "recintos": [
+      {
+        "nombre": "COCHERA",
+        "fila": 0,
+        "col": 0,
+        "ancho": 5,
+        "alto": 6
+      },
+      {
+        "nombre": "SALA",
+        "fila": 0,
+        "col": 5,
+        "ancho": 6,
+        "alto": 3
+      },
+      {
+        "nombre": "COMEDOR",
+        "fila": 0,
+        "col": 11,
+        "ancho": 3,
+        "alto": 3
+      },
+      {
+        "nombre": "COCINA",
+        "fila": 0,
+        "col": 14,
+        "ancho": 4,
+        "alto": 2
+      },
+      {
+        "nombre": "MEDIO_BANO",
+        "fila": 0,
+        "col": 18,
+        "ancho": 1.4,
+        "alto": 1.4
+      },
+      {
+        "nombre": "VESTIBULO",
+        "fila": 3,
+        "col": 0,
+        "ancho": 19.4,
+        "alto": 1.0
+      },
+      {
+        "nombre": "BANO_COMPARTIDO",
+        "fila": 4.0,
+        "col": 0,
+        "ancho": 2.0,
+        "alto": 1.5
+      },
+      {
+        "nombre": "DORMITORIO_PRINCIPAL",
+        "fila": 4.0,
+        "col": 2.0,
+        "ancho": 5,
+        "alto": 4
+      },
+      {
+        "nombre": "BANO_PRINCIPAL",
+        "fila": 4.0,
+        "col": 7.0,
+        "ancho": 2.5,
+        "alto": 2.2
+      },
+      {
+        "nombre": "DORMITORIO_2",
+        "fila": 8.0,
+        "col": 2.0,
+        "ancho": 3,
+        "alto": 3
+      },
+      {
+        "nombre": "DORMITORIO_3",
+        "fila": 11.0,
+        "col": 2.0,
+        "ancho": 4,
+        "alto": 3
+      }
+    ],
+    "puertas": [
+      {
+        "tipo": "exterior",
+        "recinto": "SALA",
+        "lado": "norte",
+        "ancho": 1.1
+      },
+      {
+        "tipo": "exterior",
+        "recinto": "COCHERA",
+        "lado": "norte",
+        "ancho": 2.5
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "VESTIBULO",
+        "recinto2": "SALA",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "SALA",
+        "recinto2": "COMEDOR",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "COMEDOR",
+        "recinto2": "COCINA",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "DORMITORIO_PRINCIPAL",
+        "recinto2": "BANO_PRINCIPAL",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "COCHERA",
+        "recinto2": "SALA",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "COCINA",
+        "recinto2": "MEDIO_BANO",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "VESTIBULO",
+        "recinto2": "DORMITORIO_PRINCIPAL",
+        "ancho": 1.0
+      }
+    ]
+  }
+}

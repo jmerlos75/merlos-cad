@@ -1,0 +1,121 @@
+{
+  "proyecto_id": 246,
+  "timestamp": "2026-05-26T18:16:05",
+  "prompt": "Casa de 2 dormitorios, 3 baños, sala, comedor, cocina, lavandería, sala-comedor integrado, aproximadamente 104 m², norte del lote: norte",
+  "score": 89,
+  "features": {
+    "n_dormitorios": 2,
+    "n_banos": 3,
+    "area_total_m2": 104.0,
+    "tiene_cochera": 0,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 0,
+    "tiene_lavanderia": 1,
+    "tiene_sala_comedor_integrado": 1,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "grid": {
+      "ancho_m": 12.5,
+      "alto_m": 15.0
+    },
+    "recintos": [
+      {
+        "nombre": "MEDIO_BANO",
+        "fila": 0,
+        "col": 0,
+        "ancho": 1.5,
+        "alto": 1.4
+      },
+      {
+        "nombre": "SALA_COMEDOR",
+        "fila": 0,
+        "col": 1.5,
+        "ancho": 7,
+        "alto": 5
+      },
+      {
+        "nombre": "COCINA",
+        "fila": 0,
+        "col": 8.5,
+        "ancho": 4,
+        "alto": 3
+      },
+      {
+        "nombre": "VESTIBULO",
+        "fila": 5,
+        "col": 0,
+        "ancho": 12.5,
+        "alto": 1.0
+      },
+      {
+        "nombre": "DORMITORIO_2",
+        "fila": 6.0,
+        "col": 4.4,
+        "ancho": 4,
+        "alto": 3
+      },
+      {
+        "nombre": "BANO_COMPARTIDO",
+        "fila": 6.0,
+        "col": 0,
+        "ancho": 2.0,
+        "alto": 1.5
+      },
+      {
+        "nombre": "LAVANDERIA",
+        "fila": 9.0,
+        "col": 0,
+        "ancho": 3,
+        "alto": 2
+      },
+      {
+        "nombre": "DORMITORIO_PRINCIPAL",
+        "fila": 11.0,
+        "col": 4.4,
+        "ancho": 4,
+        "alto": 4
+      },
+      {
+        "nombre": "BANO_PRINCIPAL",
+        "fila": 11.0,
+        "col": 0,
+        "ancho": 2.5,
+        "alto": 2.2
+      }
+    ],
+    "puertas": [
+      {
+        "tipo": "exterior",
+        "recinto": "SALA_COMEDOR",
+        "lado": "norte",
+        "ancho": 1.1
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "VESTIBULO",
+        "recinto2": "SALA_COMEDOR",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "SALA_COMEDOR",
+        "recinto2": "COCINA",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "MEDIO_BANO",
+        "recinto2": "SALA_COMEDOR",
+        "ancho": 1.0
+      },
+      {
+        "tipo": "entre_recintos",
+        "recinto1": "VESTIBULO",
+        "recinto2": "DORMITORIO_2",
+        "ancho": 1.0
+      }
+    ]
+  }
+}

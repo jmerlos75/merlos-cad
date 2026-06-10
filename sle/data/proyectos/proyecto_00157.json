@@ -1,0 +1,132 @@
+{
+  "proyecto_id": 157,
+  "timestamp": "2026-05-26T16:50:37",
+  "prompt": "DWG Planos Casa Merlos.dwg — Nivel 1",
+  "score": 66,
+  "features": {
+    "n_dormitorios": 0,
+    "n_banos": 0,
+    "area_total_m2": 0.0,
+    "tiene_cochera": 0,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 0,
+    "tiene_lavanderia": 0,
+    "tiene_sala_comedor_integrado": 0,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "origen": "dwg_merlos",
+    "archivo": "Planos Casa Merlos.dwg",
+    "nivel": 1,
+    "grid": {
+      "ancho_m": 30.5,
+      "alto_m": 11.9
+    },
+    "recintos": [
+      {
+        "nombre": "COCHERA",
+        "tipo": "cochera",
+        "zona": "publica",
+        "fila": 1.9,
+        "col": 0.5,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "VESTIBULO",
+        "tipo": "vestibulo",
+        "zona": "otro",
+        "fila": 2.4,
+        "col": 3.2,
+        "ancho": 4.83,
+        "alto": 4.73
+      },
+      {
+        "nombre": "VESTIBULO_2",
+        "tipo": "vestibulo",
+        "zona": "otro",
+        "fila": 0.6,
+        "col": 2.9,
+        "ancho": 0.93,
+        "alto": 1.31
+      },
+      {
+        "nombre": "OTRO",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 5.1,
+        "col": 6.0,
+        "ancho": 24.49,
+        "alto": 11.55
+      },
+      {
+        "nombre": "OTRO_2",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 1.3,
+        "col": 3.4,
+        "ancho": 2.0,
+        "alto": 2.0
+      },
+      {
+        "nombre": "LAVANDERIA",
+        "tipo": "lavanderia",
+        "zona": "servicio",
+        "fila": 4.3,
+        "col": 4.2,
+        "ancho": 2.79,
+        "alto": 0.5
+      }
+    ],
+    "adyacencias": [
+      {
+        "de": "VESTIBULO",
+        "hacia": "VESTIBULO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "VESTIBULO",
+        "hacia": "OTRO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "VESTIBULO",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "VESTIBULO",
+        "hacia": "LAVANDERIA",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "VESTIBULO_2",
+        "hacia": "OTRO",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "VESTIBULO_2",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_2",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO",
+        "hacia": "LAVANDERIA",
+        "tipo": "adyacente"
+      }
+    ],
+    "scores": {
+      "total": 66,
+      "orientacion": 66,
+      "zonificacion": 50,
+      "proporciones": 100,
+      "cochera": 0
+    }
+  }
+}

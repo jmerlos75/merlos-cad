@@ -1,0 +1,179 @@
+{
+  "proyecto_id": 166,
+  "timestamp": "2026-05-26T17:39:13",
+  "prompt": "DWG Casa Edwin Rodriguez.dwg — Nivel 1",
+  "score": 55,
+  "features": {
+    "n_dormitorios": 0,
+    "n_banos": 0,
+    "area_total_m2": 0.0,
+    "tiene_cochera": 0,
+    "tiene_estudio": 0,
+    "tiene_cuarto_servicio": 0,
+    "tiene_lavanderia": 0,
+    "tiene_sala_comedor_integrado": 0,
+    "es_compacto": 0,
+    "es_planta_alta": 0
+  },
+  "plan": {
+    "origen": "dwg_merlos",
+    "archivo": "Casa Edwin Rodriguez.dwg",
+    "nivel": 1,
+    "grid": {
+      "ancho_m": 8.3,
+      "alto_m": 12.1
+    },
+    "recintos": [
+      {
+        "nombre": "OTRO",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 5.0,
+        "col": 1.8,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_2",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 1.7,
+        "col": 2.0,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_3",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 5.2,
+        "col": 2.0,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_4",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 5.7,
+        "col": 8.5,
+        "ancho": 2.4,
+        "alto": 10.15
+      },
+      {
+        "nombre": "OTRO_5",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 5.8,
+        "col": 8.5,
+        "ancho": 2.4,
+        "alto": 10.12
+      },
+      {
+        "nombre": "OTRO_6",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 1.4,
+        "col": 2.6,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_7",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 1.6,
+        "col": 3.0,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_8",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 1.9,
+        "col": 3.1,
+        "ancho": 3.0,
+        "alto": 3.0
+      },
+      {
+        "nombre": "OTRO_9",
+        "tipo": "otro",
+        "zona": "otro",
+        "fila": 1.2,
+        "col": 3.5,
+        "ancho": 3.0,
+        "alto": 3.0
+      }
+    ],
+    "adyacencias": [
+      {
+        "de": "OTRO",
+        "hacia": "OTRO_3",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_6",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_2",
+        "hacia": "OTRO_9",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_4",
+        "hacia": "OTRO_5",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_6",
+        "hacia": "OTRO_7",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_6",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_6",
+        "hacia": "OTRO_9",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_7",
+        "hacia": "OTRO_8",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_7",
+        "hacia": "OTRO_9",
+        "tipo": "adyacente"
+      },
+      {
+        "de": "OTRO_8",
+        "hacia": "OTRO_9",
+        "tipo": "adyacente"
+      }
+    ],
+    "scores": {
+      "total": 55,
+      "orientacion": 50,
+      "zonificacion": 0,
+      "proporciones": 100,
+      "cochera": 100
+    }
+  }
+}

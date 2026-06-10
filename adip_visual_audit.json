@@ -1,0 +1,27 @@
+{
+  "wipeouts": [],
+  "images": [
+    {
+      "layer": "cotas",
+      "path": "E:\\DATOS\\Trabajo\\Planos y Diseños de casas\\Planos 2014\\perspectivas\\3D View 4.jpg"
+    },
+    {
+      "layer": "cotas",
+      "path": "E:\\DATOS\\Trabajo\\Planos y Diseños de casas\\Planos 2014\\perspectivas\\3D View 3.jpg"
+    },
+    {
+      "layer": "cotas",
+      "path": "E:\\DATOS\\Trabajo\\Planos y Diseños de casas\\Planos 2014\\perspectivas\\3D View 2.jpg"
+    },
+    {
+      "layer": "cotas",
+      "path": "E:\\DATOS\\Trabajo\\Planos y Diseños de casas\\Planos 2014\\perspectivas\\3D View 1.jpg"
+    }
+  ],
+  "transparent_layers": [],
+  "entities_with_transparency": 0,
+  "entities_with_ltscale_override": 1183,
+  "total_scanned": 21903,
+  "plot_style_sheet": "monochrome.ctb",
+  "plot_style_type": "CTB"
+}

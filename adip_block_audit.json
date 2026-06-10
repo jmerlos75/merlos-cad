@@ -1,0 +1,2139 @@
+{
+  "source": "Planos Casa Merlos (cambio en cochera) v13.dwg",
+  "autocad_version": "25.0s (LMS Tech)",
+  "total_block_defs": 118,
+  "total_inserts": 993,
+  "scanned_spaces": [
+    "ModelSpace",
+    "Layouts/PaperSpace"
+  ],
+  "blocks": {
+    "A$C009263C5": {
+      "name": "A$C009263C5",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbCircle": 1,
+        "AcDbLine": 4
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "A$C09A02B26": {
+      "name": "A$C09A02B26",
+      "entity_count": 23,
+      "entity_types": {
+        "AcDbHatch": 5,
+        "AcDbPolyline": 3,
+        "AcDbCircle": 5,
+        "AcDbLine": 6,
+        "AcDbRotatedDimension": 2,
+        "AcDbMText": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C0E85769E": {
+      "name": "A$C0E85769E",
+      "entity_count": 862,
+      "entity_types": {
+        "AcDbHatch": 34,
+        "AcDbLine": 538,
+        "AcDbEllipse": 146,
+        "AcDbPolyline": 28,
+        "AcDbRotatedDimension": 64,
+        "AcDbMText": 30,
+        "AcDbLeader": 22
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C0F3C626F": {
+      "name": "A$C0F3C626F",
+      "entity_count": 1488,
+      "entity_types": {
+        "AcDbHatch": 17,
+        "AcDbPolyline": 382,
+        "AcDbArc": 117,
+        "AcDbLine": 509,
+        "AcDbCircle": 47,
+        "AcDbBlockReference": 130,
+        "AcDbMText": 37,
+        "AcDbEllipse": 60,
+        "AcDbSolid": 4,
+        "AcDbText": 68,
+        "AcDbAlignedDimension": 57,
+        "AcDbRotatedDimension": 42,
+        "AcDb2LineAngularDimension": 5,
+        "AcDbAttributeDefinition": 13
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "12",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "11",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "10",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "N",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "N",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "A$C126B0055": {
+      "name": "A$C126B0055",
+      "entity_count": 540,
+      "entity_types": {
+        "AcDbBlockReference": 5,
+        "AcDbLine": 397,
+        "AcDbText": 60,
+        "AcDbRotatedDimension": 18,
+        "AcDbEllipse": 44,
+        "AcDbSolid": 14,
+        "AcDbLeader": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C14633EBA": {
+      "name": "A$C14633EBA",
+      "entity_count": 258,
+      "entity_types": {
+        "AcDbHatch": 20,
+        "AcDbPolyline": 35,
+        "AcDbLine": 147,
+        "AcDbArc": 23,
+        "AcDbRotatedDimension": 5,
+        "AcDbLeader": 9,
+        "AcDbMText": 4,
+        "AcDbBlockReference": 4,
+        "AcDbWipeout": 2,
+        "AcDbText": 9
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C176B0D02": {
+      "name": "A$C176B0D02",
+      "entity_count": 9,
+      "entity_types": {
+        "AcDbPolyline": 9
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "A$C20717B3C": {
+      "name": "A$C20717B3C",
+      "entity_count": 236,
+      "entity_types": {
+        "AcDbHatch": 6,
+        "AcDbText": 36,
+        "AcDbRotatedDimension": 15,
+        "AcDbLine": 107,
+        "AcDbEllipse": 64,
+        "AcDbMText": 8
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C21306548": {
+      "name": "A$C21306548",
+      "entity_count": 6,
+      "entity_types": {
+        "AcDbLine": 4,
+        "AcDbCircle": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "A$C2A3604AB": {
+      "name": "A$C2A3604AB",
+      "entity_count": 418,
+      "entity_types": {
+        "AcDbHatch": 17,
+        "AcDbPolyline": 135,
+        "AcDbArc": 2,
+        "AcDbLine": 51,
+        "AcDbBlockReference": 55,
+        "AcDbText": 40,
+        "AcDbCircle": 11,
+        "AcDbAlignedDimension": 14,
+        "AcDbRotatedDimension": 56,
+        "AcDbLeader": 22,
+        "AcDbMText": 7,
+        "AcDbAttributeDefinition": 8
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "A$C2C4327C1": {
+      "name": "A$C2C4327C1",
+      "entity_count": 144,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbText": 5,
+        "AcDbLine": 118,
+        "AcDbEllipse": 18,
+        "AcDbLeader": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C317438EE": {
+      "name": "A$C317438EE",
+      "entity_count": 1488,
+      "entity_types": {
+        "AcDbHatch": 17,
+        "AcDbPolyline": 382,
+        "AcDbArc": 117,
+        "AcDbLine": 509,
+        "AcDbCircle": 47,
+        "AcDbBlockReference": 130,
+        "AcDbMText": 37,
+        "AcDbEllipse": 60,
+        "AcDbSolid": 4,
+        "AcDbText": 68,
+        "AcDbAlignedDimension": 57,
+        "AcDbRotatedDimension": 42,
+        "AcDb2LineAngularDimension": 5,
+        "AcDbAttributeDefinition": 13
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "12",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "11",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "10",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "N",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "N",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "A$C335F3656": {
+      "name": "A$C335F3656",
+      "entity_count": 773,
+      "entity_types": {
+        "AcDbPolyline": 199,
+        "AcDbHatch": 8,
+        "AcDbLine": 89,
+        "AcDbBlockReference": 85,
+        "AcDbCircle": 47,
+        "AcDbMText": 24,
+        "AcDbSolid": 31,
+        "AcDbText": 104,
+        "AcDbAlignedDimension": 97,
+        "AcDbRotatedDimension": 45,
+        "AcDbEllipse": 8,
+        "AcDbArc": 4,
+        "AcDbLeader": 19,
+        "AcDbAttributeDefinition": 13
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "12",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "11",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "10",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "N",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "N",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "A$C34BE78DD": {
+      "name": "A$C34BE78DD",
+      "entity_count": 197,
+      "entity_types": {
+        "AcDbPolyline": 82,
+        "AcDbLine": 58,
+        "AcDbText": 4,
+        "AcDbCircle": 8,
+        "AcDbMText": 19,
+        "AcDbRotatedDimension": 5,
+        "AcDbBlockReference": 4,
+        "AcDbLeader": 17
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C37F623D7": {
+      "name": "A$C37F623D7",
+      "entity_count": 26,
+      "entity_types": {
+        "AcDbPolyline": 3,
+        "AcDbCircle": 3,
+        "AcDbLine": 12,
+        "AcDbArc": 8
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C396D614A": {
+      "name": "A$C396D614A",
+      "entity_count": 37,
+      "entity_types": {
+        "AcDbHatch": 4,
+        "AcDbLine": 24,
+        "AcDbCircle": 4,
+        "AcDbMText": 5
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C3EA4472D": {
+      "name": "A$C3EA4472D",
+      "entity_count": 272,
+      "entity_types": {
+        "AcDbHatch": 3,
+        "AcDbLine": 183,
+        "AcDbMText": 11,
+        "AcDbLeader": 11,
+        "AcDb3dPolyline": 2,
+        "AcDbPolyline": 20,
+        "AcDbText": 17,
+        "AcDbRotatedDimension": 23,
+        "AcDbBlockReference": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C3F86410E": {
+      "name": "A$C3F86410E",
+      "entity_count": 7,
+      "entity_types": {
+        "AcDbCircle": 2,
+        "AcDbLine": 2,
+        "AcDbHatch": 2,
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "A$C48DE6768": {
+      "name": "A$C48DE6768",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbText": 1,
+        "AcDbLine": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "A$C4D4D6510": {
+      "name": "A$C4D4D6510",
+      "entity_count": 216,
+      "entity_types": {
+        "AcDbLine": 141,
+        "AcDbLeader": 10,
+        "AcDbRotatedDimension": 8,
+        "AcDbEllipse": 33,
+        "AcDbText": 24
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C51F50EA7": {
+      "name": "A$C51F50EA7",
+      "entity_count": 113,
+      "entity_types": {
+        "AcDbHatch": 2,
+        "AcDbEllipse": 24,
+        "AcDbLine": 84,
+        "AcDbPolyline": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "A$C53DF28F4": {
+      "name": "A$C53DF28F4",
+      "entity_count": 284,
+      "entity_types": {
+        "AcDbText": 28,
+        "AcDbLine": 170,
+        "AcDbMText": 5,
+        "AcDbSolid": 8,
+        "AcDbArc": 24,
+        "AcDbCircle": 47,
+        "AcDbPolyline": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C55D16F34": {
+      "name": "A$C55D16F34",
+      "entity_count": 53,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 38,
+        "AcDbEllipse": 12,
+        "AcDbPolyline": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 40,
+      "sample_attribs": []
+    },
+    "A$C5B37420E": {
+      "name": "A$C5B37420E",
+      "entity_count": 1031,
+      "entity_types": {
+        "AcDbMText": 3,
+        "AcDbHatch": 4,
+        "AcDbRotatedDimension": 5,
+        "AcDbLine": 1008,
+        "AcDbSolid": 4,
+        "AcDbCircle": 1,
+        "AcDbText": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C608D59E0": {
+      "name": "A$C608D59E0",
+      "entity_count": 11,
+      "entity_types": {
+        "AcDbLine": 5,
+        "AcDbText": 2,
+        "AcDbEllipse": 4
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 5,
+      "sample_attribs": []
+    },
+    "A$C644C5C7E": {
+      "name": "A$C644C5C7E",
+      "entity_count": 4,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 1,
+        "AcDbCircle": 1,
+        "AcDbArc": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "A$C6DDF57A6": {
+      "name": "A$C6DDF57A6",
+      "entity_count": 191,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 159,
+        "AcDbEllipse": 23,
+        "AcDbText": 5,
+        "AcDbLeader": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C705B60D7": {
+      "name": "A$C705B60D7",
+      "entity_count": 47,
+      "entity_types": {
+        "AcDbLine": 4,
+        "AcDbEllipse": 43
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "A$C71016546": {
+      "name": "A$C71016546",
+      "entity_count": 19,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 10,
+        "AcDbEllipse": 8
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 3,
+      "sample_attribs": []
+    },
+    "A$C77322A4B": {
+      "name": "A$C77322A4B",
+      "entity_count": 183,
+      "entity_types": {
+        "AcDbArc": 41,
+        "AcDbLine": 132,
+        "AcDbText": 6,
+        "AcDbLeader": 3,
+        "AcDbRotatedDimension": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "A$C77E845CE": {
+      "name": "A$C77E845CE",
+      "entity_count": 35,
+      "entity_types": {
+        "AcDbLine": 29,
+        "AcDbArc": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 3,
+      "sample_attribs": []
+    },
+    "A$Cf26af888": {
+      "name": "A$Cf26af888",
+      "entity_count": 887,
+      "entity_types": {
+        "AcDbPolyline": 75,
+        "AcDbHatch": 159,
+        "AcDbBlockReference": 124,
+        "AcDbLine": 178,
+        "AcDbMText": 30,
+        "AcDbCircle": 78,
+        "AcDbSolid": 10,
+        "AcDbEllipse": 29,
+        "AcDbAlignedDimension": 64,
+        "AcDbRotatedDimension": 22,
+        "AcDbText": 88,
+        "AcDbLeader": 16,
+        "AcDbSpline": 2,
+        "AcDbAttributeDefinition": 12
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "B-B",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "A-A",
+          "prompt": "# LAMINA",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "L-5",
+          "prompt": "NOMBRE CORTE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "E",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "12",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "11",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        },
+        {
+          "tag": "10",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "AGUA": {
+      "name": "AGUA",
+      "entity_count": 169,
+      "entity_types": {
+        "AcDbMText": 2,
+        "AcDbText": 20,
+        "AcDbLine": 124,
+        "AcDbPolyline": 4,
+        "AcDbSolid": 11,
+        "AcDbArc": 8
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "ARBOL": {
+      "name": "ARBOL",
+      "entity_count": 130,
+      "entity_types": {
+        "AcDbBlockReference": 60,
+        "AcDbLine": 70
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 23,
+      "sample_attribs": []
+    },
+    "Abanico (4 asp)": {
+      "name": "Abanico (4 asp)",
+      "entity_count": 166,
+      "entity_types": {
+        "AcDbLine": 160,
+        "AcDbArc": 4,
+        "AcDbCircle": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "BOMBILLO": {
+      "name": "BOMBILLO",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbPolyline": 2,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 64,
+      "sample_attribs": []
+    },
+    "COL METAL": {
+      "name": "COL METAL",
+      "entity_count": 19,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 10,
+        "AcDbEllipse": 8
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 49,
+      "sample_attribs": []
+    },
+    "CREG": {
+      "name": "CREG",
+      "entity_count": 98,
+      "entity_types": {
+        "AcDbCircle": 3,
+        "AcDbPolyline": 7,
+        "AcDbLine": 52,
+        "AcDbBlockReference": 2,
+        "AcDbRotatedDimension": 11,
+        "AcDbText": 13,
+        "AcDbSolid": 8,
+        "AcDbArc": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "Cajetín La Central": {
+      "name": "Cajetín La Central",
+      "entity_count": 91,
+      "entity_types": {
+        "AcDbText": 54,
+        "AcDbLine": 31,
+        "AcDbViewport": 2,
+        "AcDbMText": 2,
+        "AcDbPolyline": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 11,
+      "sample_attribs": []
+    },
+    "DET DE INST.TABLILLA PLYCEM": {
+      "name": "DET DE INST.TABLILLA PLYCEM",
+      "entity_count": 198,
+      "entity_types": {
+        "AcDbLine": 105,
+        "AcDbText": 11,
+        "AcDbSolid": 14,
+        "AcDbPolyline": 12,
+        "AcDbEllipse": 41,
+        "AcDbCircle": 2,
+        "AcDbHatch": 1,
+        "AcDbLeader": 6,
+        "AcDbMText": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "DET-CAJA REGISTRO 4$0$SXCBNML": {
+      "name": "DET-CAJA REGISTRO 4$0$SXCBNML",
+      "entity_count": 7,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "DET-CAJA REGISTRO 4$0$_ArchTick": {
+      "name": "DET-CAJA REGISTRO 4$0$_ArchTick",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "DETALLE DE ESCALERA METAL-MADERA$0$GHBNJJHJUYU8I": {
+      "name": "DETALLE DE ESCALERA METAL-MADERA$0$GHBNJJHJUYU8I",
+      "entity_count": 9,
+      "entity_types": {
+        "AcDbLine": 8,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 6,
+      "sample_attribs": []
+    },
+    "DETALLE PARED EN GYPSUM L7H$0$M3": {
+      "name": "DETALLE PARED EN GYPSUM L7H$0$M3",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbSolid": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "DETALLE PARED EN GYPSUM L7H$0$NIVEL": {
+      "name": "DETALLE PARED EN GYPSUM L7H$0$NIVEL",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbBlockReference": 1,
+        "AcDbPolyline": 1,
+        "AcDbAttributeDefinition": 1
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "NIVEL",
+          "prompt": "NIVEL",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "DSDF": {
+      "name": "DSDF",
+      "entity_count": 32,
+      "entity_types": {
+        "AcDbLine": 24,
+        "AcDbArc": 6,
+        "AcDbCircle": 1,
+        "AcDbHatch": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "DUCHA": {
+      "name": "DUCHA",
+      "entity_count": 329,
+      "entity_types": {
+        "AcDbBlockReference": 8,
+        "AcDbLine": 242,
+        "AcDbMText": 5,
+        "AcDbSolid": 18,
+        "AcDbArc": 12,
+        "AcDbText": 38,
+        "AcDbPolyline": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "Det-Toma-Polarizado": {
+      "name": "Det-Toma-Polarizado",
+      "entity_count": 75,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbCircle": 8,
+        "AcDbArc": 4,
+        "AcDbLine": 28,
+        "AcDbText": 9,
+        "AcDbPolyline": 16,
+        "AcDbLeader": 3,
+        "AcDbBlockReference": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "Det-Toma-Polarizado$0$br": {
+      "name": "Det-Toma-Polarizado$0$br",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "Detalle previstas TV plasma": {
+      "name": "Detalle previstas TV plasma",
+      "entity_count": 503,
+      "entity_types": {
+        "AcDbLine": 190,
+        "AcDbPolyline": 11,
+        "AcDbArc": 72,
+        "AcDbCircle": 203,
+        "AcDbHatch": 1,
+        "AcDbRotatedDimension": 3,
+        "AcDbLeader": 11,
+        "AcDbMText": 12
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "Detalle previstas TV plasma$0$_ARCHTICK": {
+      "name": "Detalle previstas TV plasma$0$_ARCHTICK",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "Dosif": {
+      "name": "Dosif",
+      "entity_count": 45,
+      "entity_types": {
+        "AcDbText": 33,
+        "AcDbPolyline": 1,
+        "AcDbLine": 11
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "Ducha Cortada": {
+      "name": "Ducha Cortada",
+      "entity_count": 1022,
+      "entity_types": {
+        "AcDbLine": 326,
+        "AcDbArc": 382,
+        "AcDbPolyline": 118,
+        "AcDbSpline": 180,
+        "AcDbEllipse": 16
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "EJE": {
+      "name": "EJE",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbAttributeDefinition": 1,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "E",
+          "prompt": "EJE",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 204,
+      "sample_attribs": [
+        {
+          "E": "A"
+        },
+        {
+          "E": "B"
+        },
+        {
+          "E": "H"
+        }
+      ]
+    },
+    "F": {
+      "name": "F",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbSolid": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 12,
+      "sample_attribs": []
+    },
+    "F4": {
+      "name": "F4",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbLine": 1,
+        "AcDbSolid": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "FGHGYTYU7": {
+      "name": "FGHGYTYU7",
+      "entity_count": 64,
+      "entity_types": {
+        "AcDbEllipse": 4,
+        "AcDbLine": 34,
+        "AcDbRotatedDimension": 10,
+        "AcDbText": 11,
+        "AcDbLeader": 3,
+        "AcDbBlockReference": 1,
+        "AcDbMText": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "FGVBHGYTY6": {
+      "name": "FGVBHGYTY6",
+      "entity_count": 354,
+      "entity_types": {
+        "AcDbLine": 287,
+        "AcDbPolyline": 5,
+        "AcDbSolid": 5,
+        "AcDbMText": 4,
+        "AcDbBlockReference": 8,
+        "AcDbText": 14,
+        "AcDbLeader": 4,
+        "AcDbRotatedDimension": 6,
+        "AcDbEllipse": 17,
+        "AcDbHatch": 4
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "FLECHA": {
+      "name": "FLECHA",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbPolyline": 1,
+        "AcDbHatch": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "FOTO": {
+      "name": "FOTO",
+      "entity_count": 27,
+      "entity_types": {
+        "AcDbPolyline": 15,
+        "AcDbText": 11,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "GANCHO ROPA": {
+      "name": "GANCHO ROPA",
+      "entity_count": 10,
+      "entity_types": {
+        "AcDbLine": 10
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 62,
+      "sample_attribs": []
+    },
+    "GRASA": {
+      "name": "GRASA",
+      "entity_count": 96,
+      "entity_types": {
+        "AcDbText": 12,
+        "AcDbPolyline": 16,
+        "AcDbLine": 49,
+        "AcDbArc": 2,
+        "AcDbRotatedDimension": 7,
+        "AcDbSolid": 9,
+        "AcDbBlockReference": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "INDODRO": {
+      "name": "INDODRO",
+      "entity_count": 200,
+      "entity_types": {
+        "AcDbMText": 2,
+        "AcDbLine": 141,
+        "AcDbArc": 15,
+        "AcDbText": 25,
+        "AcDbPolyline": 3,
+        "AcDbSolid": 14
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "INTE": {
+      "name": "INTE",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbPolyline": 1,
+        "AcDbText": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 17,
+      "sample_attribs": []
+    },
+    "Llave Ducha Frontal": {
+      "name": "Llave Ducha Frontal",
+      "entity_count": 2054,
+      "entity_types": {
+        "AcDbPolyline": 104,
+        "AcDbArc": 1437,
+        "AcDbLine": 403,
+        "AcDbCircle": 4,
+        "AcDbEllipse": 106
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "M3": {
+      "name": "M3",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbSolid": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 18,
+      "sample_attribs": []
+    },
+    "MECANICO CASA MOD$0$DIR": {
+      "name": "MECANICO CASA MOD$0$DIR",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "MECANICO CASA MOD$0$_ArchTick": {
+      "name": "MECANICO CASA MOD$0$_ArchTick",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "MESA DE NOCHE": {
+      "name": "MESA DE NOCHE",
+      "entity_count": 19,
+      "entity_types": {
+        "AcDbPolyline": 1,
+        "AcDbCircle": 4,
+        "AcDbLine": 2,
+        "AcDbBlockReference": 12
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 3,
+      "sample_attribs": []
+    },
+    "M_RPC Shrub - Century - 0_56 Meters-181766-West": {
+      "name": "M_RPC Shrub - Century - 0_56 Meters-181766-West",
+      "entity_count": 246,
+      "entity_types": {
+        "AcDbLine": 246
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "M_RPC Shrub - Century - 0_56 Meters-V1-West": {
+      "name": "M_RPC Shrub - Century - 0_56 Meters-V1-West",
+      "entity_count": 248,
+      "entity_types": {
+        "AcDbLine": 248
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "M_RPC Shrub - Century - 0_56 Meters-V2-West": {
+      "name": "M_RPC Shrub - Century - 0_56 Meters-V2-West",
+      "entity_count": 147,
+      "entity_types": {
+        "AcDbLine": 147
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "M_RPC Shrub - Century - 0_56 Meters-V3-West": {
+      "name": "M_RPC Shrub - Century - 0_56 Meters-V3-West",
+      "entity_count": 91,
+      "entity_types": {
+        "AcDbLine": 91
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "M_RPC Shrub - Century - 0_56 Meters-V4-West": {
+      "name": "M_RPC Shrub - Century - 0_56 Meters-V4-West",
+      "entity_count": 64,
+      "entity_types": {
+        "AcDbLine": 64
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "M_RPC Tree - Tropical - Grass Palm - 5_5 Meters-223773-West": {
+      "name": "M_RPC Tree - Tropical - Grass Palm - 5_5 Meters-223773-West",
+      "entity_count": 167,
+      "entity_types": {
+        "AcDbLine": 167
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "NIVEC": {
+      "name": "NIVEC",
+      "entity_count": 7,
+      "entity_types": {
+        "AcDbLine": 5,
+        "AcDbAttributeDefinition": 1,
+        "AcDbSolid": 1
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "0+NIVEL",
+          "prompt": "NIVEL CIELO ? :",
+          "default": "NCT 0+00",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "NIVEL-AZ": {
+      "name": "NIVEL-AZ",
+      "entity_count": 14,
+      "entity_types": {
+        "AcDbAttributeDefinition": 2,
+        "AcDbSolid": 8,
+        "AcDbCircle": 1,
+        "AcDbLine": 3
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "NIVEL",
+          "prompt": "NIVEL",
+          "default": "N= 0+00",
+          "invisible": false
+        },
+        {
+          "tag": "NIVEL",
+          "prompt": "NIVEL BMP",
+          "default": "",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "PENDIENTE": {
+      "name": "PENDIENTE",
+      "entity_count": 6,
+      "entity_types": {
+        "AcDbBlockReference": 1,
+        "AcDbPolyline": 1,
+        "AcDbCircle": 1,
+        "AcDbHatch": 2,
+        "AcDbAttributeDefinition": 1
+      },
+      "has_attdefs": true,
+      "attdefs": [
+        {
+          "tag": "PEND",
+          "prompt": "PEND",
+          "default": "1%",
+          "invisible": false
+        }
+      ],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "PLANTA TECHOS$0$FGVBHGHTYHYU8": {
+      "name": "PLANTA TECHOS$0$FGVBHGHTYHYU8",
+      "entity_count": 4,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "PLANTA TECHOS$0$GHBNJGJHUYU": {
+      "name": "PLANTA TECHOS$0$GHBNJGJHUYU",
+      "entity_count": 4,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 20,
+      "sample_attribs": []
+    },
+    "PLANTA TECHOS$0$GHBNJHJYUJUI89": {
+      "name": "PLANTA TECHOS$0$GHBNJHJYUJUI89",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbMText": 1,
+        "AcDbLine": 4
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "PLANTAS MECANICAS$0$DGFBRTGT": {
+      "name": "PLANTAS MECANICAS$0$DGFBRTGT",
+      "entity_count": 4,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbLine": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 37,
+      "sample_attribs": []
+    },
+    "PLANTAS MECANICAS$0$GHBNJHUYUJ": {
+      "name": "PLANTAS MECANICAS$0$GHBNJHUYUJ",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbBlockReference": 1,
+        "AcDbLine": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 3,
+      "sample_attribs": []
+    },
+    "PLANTAS MECANICAS$0$HJBNGH": {
+      "name": "PLANTAS MECANICAS$0$HJBNGH",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbCircle": 1,
+        "AcDbLine": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "PLANTAS MECANICAS$0$L": {
+      "name": "PLANTAS MECANICAS$0$L",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbLine": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "PUERTA 100": {
+      "name": "PUERTA 100",
+      "entity_count": 38,
+      "entity_types": {
+        "AcDbArc": 9,
+        "AcDbPolyline": 12,
+        "AcDbLine": 16,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "PUERTA 110": {
+      "name": "PUERTA 110",
+      "entity_count": 38,
+      "entity_types": {
+        "AcDbArc": 9,
+        "AcDbLine": 16,
+        "AcDbPolyline": 12,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 3,
+      "sample_attribs": []
+    },
+    "PUERTA 75": {
+      "name": "PUERTA 75",
+      "entity_count": 38,
+      "entity_types": {
+        "AcDbPolyline": 11,
+        "AcDbLine": 17,
+        "AcDbCircle": 1,
+        "AcDbArc": 9
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "PUERTA 90": {
+      "name": "PUERTA 90",
+      "entity_count": 38,
+      "entity_types": {
+        "AcDbPolyline": 12,
+        "AcDbLine": 16,
+        "AcDbCircle": 1,
+        "AcDbArc": 9
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 7,
+      "sample_attribs": []
+    },
+    "SEC": {
+      "name": "SEC",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbText": 1,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "TA": {
+      "name": "TA",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbPolyline": 1,
+        "AcDbLine": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "TAB": {
+      "name": "TAB",
+      "entity_count": 78,
+      "entity_types": {
+        "AcDbText": 22,
+        "AcDbLine": 33,
+        "AcDbPolyline": 21,
+        "AcDbArc": 1,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "TELEFONO": {
+      "name": "TELEFONO",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbPolyline": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 6,
+      "sample_attribs": []
+    },
+    "TOMA": {
+      "name": "TOMA",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbPolyline": 1,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 39,
+      "sample_attribs": []
+    },
+    "TOMAS": {
+      "name": "TOMAS",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbCircle": 1,
+        "AcDbLine": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 10,
+      "sample_attribs": []
+    },
+    "TTV": {
+      "name": "TTV",
+      "entity_count": 4,
+      "entity_types": {
+        "AcDbHatch": 1,
+        "AcDbPolyline": 1,
+        "AcDbLine": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "TV": {
+      "name": "TV",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbPolyline": 1,
+        "AcDbText": 1,
+        "AcDbCircle": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 6,
+      "sample_attribs": []
+    },
+    "VALVULA": {
+      "name": "VALVULA",
+      "entity_count": 322,
+      "entity_types": {
+        "AcDbMText": 7,
+        "AcDbSolid": 22,
+        "AcDbLine": 223,
+        "AcDbText": 26,
+        "AcDbPolyline": 9,
+        "AcDbBlockReference": 2,
+        "AcDbArc": 23,
+        "AcDbCircle": 10
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "_ARCHTICK": {
+      "name": "_ARCHTICK",
+      "entity_count": 1,
+      "entity_types": {
+        "AcDbPolyline": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 49,
+      "sample_attribs": []
+    },
+    "_CLOSED": {
+      "name": "_CLOSED",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbLine": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 21,
+      "sample_attribs": []
+    },
+    "_Dot": {
+      "name": "_Dot",
+      "entity_count": 2,
+      "entity_types": {
+        "AcDbPolyline": 1,
+        "AcDbLine": 1
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_H1": {
+      "name": "_H1",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbBlockReference": 5
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_H2": {
+      "name": "_H2",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbBlockReference": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_H3": {
+      "name": "_H3",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbBlockReference": 5
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_H4": {
+      "name": "_H4",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbBlockReference": 5
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_H5": {
+      "name": "_H5",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbBlockReference": 5
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_H6": {
+      "name": "_H6",
+      "entity_count": 5,
+      "entity_types": {
+        "AcDbBlockReference": 5
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "_LEAF1": {
+      "name": "_LEAF1",
+      "entity_count": 6,
+      "entity_types": {
+        "AcDbLine": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 0,
+      "sample_attribs": []
+    },
+    "bloque": {
+      "name": "bloque",
+      "entity_count": 3,
+      "entity_types": {
+        "AcDbPolyline": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 140,
+      "sample_attribs": []
+    },
+    "dcfdfer4": {
+      "name": "dcfdfer4",
+      "entity_count": 85,
+      "entity_types": {
+        "AcDbText": 9,
+        "AcDbAlignedDimension": 1,
+        "AcDbLine": 59,
+        "AcDbRotatedDimension": 2,
+        "AcDbHatch": 2,
+        "AcDbEllipse": 9,
+        "AcDbSolid": 3
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "detalle de cimientos": {
+      "name": "detalle de cimientos",
+      "entity_count": 125,
+      "entity_types": {
+        "AcDbLine": 59,
+        "AcDbMText": 11,
+        "AcDbLeader": 11,
+        "AcDbRotatedDimension": 4,
+        "AcDbHatch": 13,
+        "AcDbPolyline": 6,
+        "AcDbArc": 11,
+        "AcDbCircle": 10
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "hilux vista frontal": {
+      "name": "hilux vista frontal",
+      "entity_count": 3418,
+      "entity_types": {
+        "AcDbLine": 3418
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 4,
+      "sample_attribs": []
+    },
+    "hilux vista lateral": {
+      "name": "hilux vista lateral",
+      "entity_count": 4130,
+      "entity_types": {
+        "AcDbLine": 4130
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 3,
+      "sample_attribs": []
+    },
+    "hilux vista superior": {
+      "name": "hilux vista superior",
+      "entity_count": 5663,
+      "entity_types": {
+        "AcDbLine": 5663
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "k1": {
+      "name": "k1",
+      "entity_count": 93,
+      "entity_types": {
+        "AcDbLine": 62,
+        "AcDbPolyline": 19,
+        "AcDbCircle": 6,
+        "AcDbArc": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "norte-2": {
+      "name": "norte-2",
+      "entity_count": 63,
+      "entity_types": {
+        "AcDbLine": 37,
+        "AcDbSolid": 8,
+        "AcDbArc": 12,
+        "AcDbHatch": 6
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 1,
+      "sample_attribs": []
+    },
+    "sanitario papo": {
+      "name": "sanitario papo",
+      "entity_count": 202,
+      "entity_types": {
+        "AcDbSpline": 184,
+        "AcDbLine": 16,
+        "AcDbCircle": 2
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    },
+    "silla bar moderna": {
+      "name": "silla bar moderna",
+      "entity_count": 31,
+      "entity_types": {
+        "AcDbLine": 23,
+        "AcDbArc": 8
+      },
+      "has_attdefs": false,
+      "attdefs": [],
+      "insert_count": 2,
+      "sample_attribs": []
+    }
+  },
+  "top_blocks": [
+    {
+      "name": "EJE",
+      "inserts": 204
+    },
+    {
+      "name": "bloque",
+      "inserts": 140
+    },
+    {
+      "name": "BOMBILLO",
+      "inserts": 64
+    },
+    {
+      "name": "GANCHO ROPA",
+      "inserts": 62
+    },
+    {
+      "name": "_ARCHTICK",
+      "inserts": 49
+    },
+    {
+      "name": "COL METAL",
+      "inserts": 49
+    },
+    {
+      "name": "A$C55D16F34",
+      "inserts": 40
+    },
+    {
+      "name": "TOMA",
+      "inserts": 39
+    },
+    {
+      "name": "PLANTAS MECANICAS$0$DGFBRTGT",
+      "inserts": 37
+    },
+    {
+      "name": "ARBOL",
+      "inserts": 23
+    },
+    {
+      "name": "_CLOSED",
+      "inserts": 21
+    },
+    {
+      "name": "PLANTA TECHOS$0$GHBNJGJHUYU",
+      "inserts": 20
+    },
+    {
+      "name": "M3",
+      "inserts": 18
+    },
+    {
+      "name": "INTE",
+      "inserts": 17
+    },
+    {
+      "name": "*U15",
+      "inserts": 12
+    },
+    {
+      "name": "F",
+      "inserts": 12
+    },
+    {
+      "name": "Cajetín La Central",
+      "inserts": 11
+    },
+    {
+      "name": "TOMAS",
+      "inserts": 10
+    },
+    {
+      "name": "PUERTA 90",
+      "inserts": 7
+    },
+    {
+      "name": "DETALLE DE ESCALERA METAL-MADERA$0$GHBNJJHJUYU8I",
+      "inserts": 6
+    }
+  ]
+}

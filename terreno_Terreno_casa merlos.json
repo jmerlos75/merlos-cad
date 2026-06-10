@@ -1,0 +1,75 @@
+{
+  "nombre": "Terreno sin nombre",
+  "modo": "rumbo",
+  "lineas": [
+    {
+      "dist_m": 23.0,
+      "dist_cm": 10.0,
+      "frente": true,
+      "desc": "",
+      "ns": "N",
+      "rum_g": 0.0,
+      "rum_m": 33.0,
+      "ew": "W"
+    },
+    {
+      "dist_m": 55.0,
+      "dist_cm": 17.0,
+      "frente": false,
+      "desc": "",
+      "ns": "N",
+      "rum_g": 75.0,
+      "rum_m": 40.0,
+      "ew": "E"
+    },
+    {
+      "dist_m": 27.0,
+      "dist_cm": 41.0,
+      "frente": false,
+      "desc": "",
+      "ns": "S",
+      "rum_g": 10.0,
+      "rum_m": 22.0,
+      "ew": "W"
+    },
+    {
+      "dist_m": 49.0,
+      "dist_cm": 28.0,
+      "frente": false,
+      "desc": "",
+      "ns": "S",
+      "rum_g": 78.0,
+      "rum_m": 33.0,
+      "ew": "W"
+    }
+  ],
+  "poligono": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      -0.2217,
+      23.0989
+    ],
+    [
+      53.2309,
+      36.757
+    ],
+    [
+      48.2986,
+      9.7944
+    ]
+  ],
+  "area_m2": 1245.84,
+  "perimetro_m": 154.96,
+  "retiros": {
+    "frontal": 3.0,
+    "posterior": 3.0,
+    "lateral_izq": 1.5,
+    "lateral_der": 1.5
+  },
+  "cobertura_max_pct": 75.0,
+  "huella_max_m2": 934.38,
+  "normativa": "Código Urbano CR"
+}
