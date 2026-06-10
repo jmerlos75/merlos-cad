@@ -19,11 +19,16 @@ _terreno_mapa.html
 
 # Datos de sesión y archivos generados en runtime (no son código fuente)
 settings.json
-config/settings.json
-config/recovery.json
+config/
 freeze_log.jsonl
+*.jsonl
+adip_*.json
+benchmark_*.txt
 benchmark_opengl_result.txt
 test_text_output.png
+
+# Claude Code interno
+.claude/
 
 # Directorios de build/distribución
 dist/
