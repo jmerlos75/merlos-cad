@@ -1086,17 +1086,17 @@ class RendererPIL(BaseRenderer):
             v = dim_entity.measurement() * _DIMLFAC   # aplica factor de escala
             if dim_entity.dim_type == "ANG":
                 return f"{v:.1f}°"                     # ángulo: siempre 1 decimal
-            # Imperial: usar format_dim_value para pies-pulgadas
+            # Imperial: pies-pulgadas
             if _UNITS == "imperial" and dim_entity.dim_type not in ("ANG",):
                 try:
-                    from cad.layout import format_dim_value as _fdv
-                    imp = _fdv(v, "imperial", _IMP_PREC)
-                    if imp is not None:
-                        if dim_entity.dim_type == "D":
-                            return f"Ø{imp}"
-                        if dim_entity.dim_type == "R":
-                            return f"R{imp}"
-                        return imp
+                    feet = int(v // 304.8)
+                    inches = (v % 304.8) / 25.4
+                    imp = f"{feet}'-{inches:.{_IMP_PREC}f}\""
+                    if dim_entity.dim_type == "D":
+                        return f"Ø{imp}"
+                    if dim_entity.dim_type == "R":
+                        return f"R{imp}"
+                    return imp
                 except Exception:
                     pass
             if dim_entity.dim_type == "D":

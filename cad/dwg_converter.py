@@ -59,7 +59,7 @@ def _bin_dir() -> str:
 
     Permite distribuir el conversor LibreDWG junto a la app sin instalar nada
     ni depender de AutoCAD. Estructura esperada:
-        Estudio Merlos AI/bin/dxf2dwg.exe
+        merlos-cad/bin/dxf2dwg.exe
     """
     # cad/dwg_converter.py  →  raíz de la app es el padre de 'cad'
     raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

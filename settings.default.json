@@ -1,0 +1,6 @@
+{
+  "rendering": { "backend": "auto" },
+  "snap": { "endpoint": true, "midpoint": true, "center": true, "intersection": true },
+  "units": "mm",
+  "language": "es"
+}

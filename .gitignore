@@ -18,14 +18,28 @@ env/
 _terreno_mapa.html
 
 # Datos de sesión y archivos generados en runtime (no son código fuente)
+settings.json
 config/settings.json
 config/recovery.json
+freeze_log.jsonl
 benchmark_opengl_result.txt
 test_text_output.png
+
+# Directorios de build/distribución
+dist/
+build/
+*.spec
+recovery/
+logs/
 
 # Credenciales / configuración local
 .env
 *.env
+*.key
+*.pem
+
+# Documentación interna (no va al repo público)
+docs/
 
 # IDE
 .vscode/
