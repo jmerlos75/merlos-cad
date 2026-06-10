@@ -1,37 +1,35 @@
-# Estudio Merlos AI
+# Merlos CAD
 
-Aplicacion de escritorio para el Estudio de Arquitectura Joseph Merlos.
-Conecta con AutoCAD via MCP y utiliza Claude AI para generar plantas arquitectonicas.
+Editor vectorial CAD de escritorio, construido en Python con renderizado OpenGL + overlay PIL.
 
-## Instalacion
+## Características
+
+- Dibujo vectorial: líneas, polilíneas, arcos, círculos, elipses, splines, texto, cotas
+- Capas, snap de objeto, modo ortogonal
+- Importar y exportar DXF (AC2018)
+- Exportar PNG
+- Bloques, hatch (relleno), líderes
+- Renderer GPU con cache VRAM — fluido en planos de 60k+ entidades
+
+## Requisitos
+
+- Python 3.10+
+- `customtkinter`, `Pillow`, `ezdxf`, `PyOpenGL`, `numpy`
 
 ```bash
-cd "C:\Users\jmerl\OneDrive\Documentos\Estudio Merlos AI"
 pip install -r requirements.txt
 ```
 
 ## Uso
 
 ```bash
-python app.py
+python main.py
 ```
 
-O usar el acceso directo "Estudio Merlos AI" en el escritorio.
+## Autor
 
-## Configuracion
+Joseph Merlos — [Estudio Merlos](https://github.com/jmerlos75)
 
-Al iniciar por primera vez, la app pedira la API key de Anthropic.
-Tambien se puede configurar manualmente en `config/settings.json`.
+## Licencia
 
-## Requisitos
-
-- Python 3.10+
-- AutoCAD instalado
-- MCP AutoCAD corriendo en equipo de agentes
-- API key de Anthropic
-
-## Modulos
-
-- **AutoCAD**: Generacion de plantas, muros, puertas, ventanas, cotas
-- **Revit**: Proximamente
-- **Presupuestos**: Proximamente
+MIT © 2026 Joseph Merlos
