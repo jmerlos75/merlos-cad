@@ -9,5 +9,6 @@ assets/
 build/
 dist/
 *.spec
+!merlos_cad.spec
 .DS_Store
 Thumbs.db
